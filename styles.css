@@ -1,0 +1,164 @@
+:root {
+	--bg: #f5f7fb;
+	--card: #ffffff;
+	--text: #1b2430;
+	--muted: #5f6b7a;
+	--line: #d8dee8;
+	--link: #0b5fcc;
+	--button: #eef3fb;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: var(--bg);
+	color: var(--text);
+	line-height: 1.5;
+}
+
+.site-header {
+	background: var(--card);
+	border-bottom: 1px solid var(--line);
+}
+
+.wrap {
+	width: min(100%, 1000px);
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.site-header .wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+nav {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+nav a,
+a {
+	color: var(--link);
+	text-decoration: none;
+}
+
+nav a:hover,
+a:hover {
+	text-decoration: underline;
+}
+
+.stack {
+	display: grid;
+	gap: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+}
+
+.card {
+	background: var(--card);
+	border: 1px solid var(--line);
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.button-link,
+button {
+	display: inline-block;
+	padding: 0.6rem 0.9rem;
+	border-radius: 8px;
+	border: 1px solid var(--line);
+	background: var(--button);
+	color: var(--text);
+	font: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+button:hover,
+.button-link:hover {
+	text-decoration: none;
+	filter: brightness(0.98);
+}
+
+.toolbar {
+	display: flex;
+	gap: 0.75rem;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+}
+
+.tree-root details {
+	margin: 0.35rem 0 0.35rem 1rem;
+}
+
+.tree-root summary {
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.tree-root ul {
+	list-style: none;
+	padding-left: 1.25rem;
+	margin: 0.4rem 0;
+	border-left: 1px solid var(--line);
+}
+
+.tree-root li {
+	margin: 0.4rem 0;
+	padding-left: 0.6rem;
+}
+
+.media-container {
+	margin: 1rem 0;
+}
+
+.media-player,
+.media-image {
+	width: 100%;
+	max-width: 100%;
+	border: 1px solid var(--line);
+	border-radius: 10px;
+	background: #000;
+}
+
+.media-image {
+	background: #fff;
+}
+
+.breadcrumbs {
+	margin: 0 0 0.5rem;
+	color: var(--muted);
+	font-size: 0.95rem;
+}
+
+.muted {
+	color: var(--muted);
+}
+
+code {
+	background: #eef3fb;
+	padding: 0.1rem 0.35rem;
+	border-radius: 5px;
+}
+
+.notice {
+	padding: 0.8rem 1rem;
+	border-radius: 8px;
+	background: #fff8e6;
+	border: 1px solid #efd89b;
+}
+
+@media (max-width: 640px) {
+	.site-header .wrap {
+		align-items: flex-start;
+	}
+}
