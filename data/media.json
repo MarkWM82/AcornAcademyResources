@@ -1,0 +1,39 @@
+{
+	"items": [
+		{
+			"slug": "math-11x",
+			"title": "11 Times Table Trick",
+			"type": "video",
+			"file": "media/math/multiplication/11x.mp4",
+			"mime": "video/mp4",
+			"description": "Handy tricks to help you with your eleven times table oncee you get past 12.",
+			"path": ["Math", "Multiplication", "11x", "11 Times Table Trick"]
+		},
+		{
+			"slug": "math-multiplication-3x-gif",
+			"title": "3x Help",
+			"type": "gif",
+			"file": "media/math/multiplication/3x.gif",
+			"mime": "video/mp4",
+			"description": "Example lesson entry for the 3 times table.",
+			"path": ["Math", "Multiplication", "3x", "3 Times Tables Tricks"]
+		},
+		{
+			"slug": "spanish-colors-basics",
+			"title": "Spanish Colors Basics",
+			"type": "video",
+			"file": "media/spanish/colors/colors-basics.mp4",
+			"mime": "video/mp4",
+			"description": "Example Spanish lesson video entry.",
+			"path": ["Spanish", "Colors", "Spanish Colors Basics"]
+		},
+		{
+			"slug": "spelling-long-a-example-gif",
+			"title": "Long A Example GIF",
+			"type": "gif",
+			"file": "media/spelling/long-a/long-a-example.gif",
+			"description": "Example animated GIF entry.",
+			"path": ["Spelling", "Long A", "Long A Example GIF"]
+		}
+	]
+}
