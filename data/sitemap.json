@@ -88,7 +88,15 @@
 		},
 		{
 			"title": "History",
-			"children": []
+			"children": [
+				{
+					"title": "The United States",
+					"children": [
+						{
+							"title": "The American Revolution",
+							"item": "history-american-revolution"
+						}
+					]
+				}
+			]
 		}
-	]
-}
