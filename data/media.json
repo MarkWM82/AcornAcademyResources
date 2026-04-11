@@ -34,6 +34,15 @@
 			"file": "media/spelling/long-a/long-a-example.gif",
 			"description": "Example animated GIF entry.",
 			"path": ["Spelling", "Long A", "Long A Example GIF"]
+		},
+		{
+			"slug": "history-american-revolution",
+			"title": "American Revolution",
+			"type": "video",
+			"file": "media/history/americanrevolution.mkv",
+			"mime": "video/mp4",
+			"description": "A brief history of the American Revolutionary War.",
+			"path": ["History", "United States", "American Revolution"]
 		}
 	]
 }
