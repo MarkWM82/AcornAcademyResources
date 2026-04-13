@@ -43,6 +43,15 @@
 			"mime": "video/mp4",
 			"description": "A brief history of the American Revolutionary War.",
 			"path": ["History", "United States", "American Revolution"]
+		},
+			{
+			"slug": "history-english-civil-war",
+			"title": "The English Civil War",
+			"type": "video",
+			"file": "media/history/englishcivilwarhh.mp4",
+			"mime": "video/mp4",
+			"description": "A brief history of the English Civil War.",
+			"path": ["History", "Europe", "The United Kingdom", "The English Civil War"]
 		}
 	]
 }
