@@ -161,4 +161,33 @@ code {
 	.site-header .wrap {
 		align-items: flex-start;
 	}
+
+.article-page {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 1.5rem;
+}
+
+.article-content {
+	background: #ffffff;
+	padding: 1.5rem;
+	border: 1px solid #d9d9d9;
+	border-radius: 8px;
+	line-height: 1.7;
+	}
+
+.article-content h1,
+.article-content h2,
+.article-content h3 {
+	margin-top: 1.5rem;
+	}
+
+.article-content p {
+	margin: 0 0 1rem 0;
+	}
+
+.article-content img {
+	max-width: 100%;
+	height: auto;
+	}	
 }
