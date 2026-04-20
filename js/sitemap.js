@@ -11,6 +11,13 @@ function makeMediaLink(slug, title) {
 	link.href = `media.html?item=${encodeURIComponent(slug)}`;
 	link.textContent = title;
 	return link;
+	if (node.url) {
+	link.href = node.url;
+} else if (node.item) {
+	link.href = `media.html?item=${encodeURIComponent(node.item)}`;
+} else {
+	link.href = "#";
+}
 }
 
 function renderNode(node) {
