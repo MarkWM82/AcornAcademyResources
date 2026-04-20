@@ -22,9 +22,9 @@ function makeNodeLink(node) {
 }
 
 function renderNode(node) {
-	if (node.item) {
+	if (node.item || node.url) {
 		const li = document.createElement('li');
-		li.appendChild(makeMediaLink(node.item, node.title));
+		li.appendChild(makeNodeLink(node));
 		return li;
 	}
 
