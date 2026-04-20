@@ -6,18 +6,19 @@ async function loadJson(path) {
 	return response.json();
 }
 
-function makeMediaLink(slug, title) {
+function makeNodeLink(node) {
 	const link = document.createElement('a');
-	link.href = `media.html?item=${encodeURIComponent(slug)}`;
-	link.textContent = title;
-	return link;
+	link.textContent = node.title;
+
 	if (node.url) {
-	link.href = node.url;
-} else if (node.item) {
-	link.href = `media.html?item=${encodeURIComponent(node.item)}`;
-} else {
-	link.href = "#";
-}
+		link.href = node.url;
+	} else if (node.item) {
+		link.href = `media.html?item=${encodeURIComponent(node.item)}`;
+	} else {
+		link.href = '#';
+	}
+
+	return link;
 }
 
 function renderNode(node) {
