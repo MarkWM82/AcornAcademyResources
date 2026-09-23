@@ -72,6 +72,45 @@
 			]
 		},
 		{
+			"slug": "spanish-body-parts",
+			"title": "Spanish: Parts of the Body",
+			"type": "collection",
+			"description": "Watch the video and use the illustrated body-parts reference to practice Spanish vocabulary.",
+			"path": [
+				"Spanish",
+				"Body Parts"
+			],
+			"items": [
+				"spanish-body-parts-video",
+				"spanish-body-parts-image"
+			]
+		},
+		{
+			"slug": "spanish-body-parts-video",
+			"title": "The Parts of the Body in Spanish",
+			"type": "video",
+			"file": "media/spanish/The Parts of the Body in Spanish.mp4",
+			"mime": "video/mp4",
+			"description": "Watch this lesson to learn the Spanish words for parts of the body.",
+			"path": [
+				"Spanish",
+				"Body Parts",
+				"Video"
+			]
+		},
+		{
+			"slug": "spanish-body-parts-image",
+			"title": "Body Parts Reference Picture",
+			"type": "image",
+			"file": "media/spanish/bodyparts.png",
+			"description": "Use this picture to review the body-part names while learning.",
+			"path": [
+				"Spanish",
+				"Body Parts",
+				"Reference Picture"
+			]
+		},
+		{
 			"slug": "spanish-colors-basics",
 			"title": "Spanish Colors Basics",
 			"type": "video",
