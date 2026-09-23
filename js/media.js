@@ -39,7 +39,7 @@ function renderVideo(item) {
 	return video;
 }
 
-function renderVideoCollection(collection, allItems) {
+function renderMediaCollection(collection, allItems) {
 	const wrapper = document.createElement('div');
 	wrapper.className = 'stack';
 
@@ -55,7 +55,7 @@ function renderVideoCollection(collection, allItems) {
 			section.appendChild(notice);
 		} else {
 			const heading = document.createElement('h3');
-			heading.textContent = item.title || 'Algebra lesson';
+			heading.textContent = item.title || 'Lesson resource';
 			section.appendChild(heading);
 
 			if (item.description) {
@@ -65,7 +65,7 @@ function renderVideoCollection(collection, allItems) {
 				section.appendChild(description);
 			}
 
-			section.appendChild(renderVideo(item));
+			section.appendChild(item.type === 'image' || item.type === 'gif' ? renderImage(item) : renderVideo(item));
 		}
 
 		wrapper.appendChild(section);
@@ -114,7 +114,7 @@ async function init() {
 		container.innerHTML = '';
 
 		if (item.type === 'collection') {
-			container.appendChild(renderVideoCollection(item, data.items || []));
+			container.appendChild(renderMediaCollection(item, data.items || []));
 		} else if (item.type === 'gif' || item.type === 'image') {
 			container.appendChild(renderImage(item));
 		} else {
