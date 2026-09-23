@@ -1,0 +1,272 @@
+1
+00:00:00,080 --> 00:00:04,799
+Did you know that you were doing algebra
+
+2
+00:00:02,159 --> 00:00:07,839
+way back in the second grade, way back
+
+3
+00:00:04,799 --> 00:00:09,840
+in elementary and primary school? Now, a
+
+4
+00:00:07,839 --> 00:00:12,080
+lot of you are saying, "Hey, Mr. YouTube
+
+5
+00:00:09,840 --> 00:00:14,799
+Math Man, I wasn't doing this in my
+
+6
+00:00:12,080 --> 00:00:16,960
+school." Well, indeed you were, but the
+
+7
+00:00:14,799 --> 00:00:19,039
+problem looked a little bit different.
+
+8
+00:00:16,960 --> 00:00:22,640
+So, what am I talking about? Well, what
+
+9
+00:00:19,039 --> 00:00:26,800
+we have here is an algebraic equation.
+
+10
+00:00:22,640 --> 00:00:29,519
+So, we have 2x + 1 is equal to 5. Now, x
+
+11
+00:00:26,800 --> 00:00:33,040
+is a variable. It simply just represents
+
+12
+00:00:29,519 --> 00:00:35,200
+a number. So a variable in algebra is
+
+13
+00:00:33,040 --> 00:00:38,559
+just some number. So we can think of
+
+14
+00:00:35,200 --> 00:00:42,320
+this equation this way. 2 * some number
+
+15
+00:00:38,559 --> 00:00:44,879
+x + 1 is equal to 5. Now way back in
+
+16
+00:00:42,320 --> 00:00:46,960
+elementary and primary school, we didn't
+
+17
+00:00:44,879 --> 00:00:50,160
+see algebraic equations written this
+
+18
+00:00:46,960 --> 00:00:54,239
+way. We saw them written in this manner.
+
+19
+00:00:50,160 --> 00:00:57,680
+So maybe something like this. Two box +
+
+20
+00:00:54,239 --> 00:00:59,600
+1 is equal to five. Now, of course, we
+
+21
+00:00:57,680 --> 00:01:01,520
+all remember these problems and then we
+
+22
+00:00:59,600 --> 00:01:02,879
+would just kind of look at this box and
+
+23
+00:01:01,520 --> 00:01:05,280
+think to ourselves, all right, what
+
+24
+00:01:02,879 --> 00:01:07,119
+number do I have to put into this box to
+
+25
+00:01:05,280 --> 00:01:10,080
+solve this problem? So, maybe you put in
+
+26
+00:01:07,119 --> 00:01:13,600
+a one, you're like, well, 2 * 1, that's
+
+27
+00:01:10,080 --> 00:01:15,520
+two. So, 2 + 1, that's three. Uh, one is
+
+28
+00:01:13,600 --> 00:01:18,320
+not the right answer. So, now maybe you
+
+29
+00:01:15,520 --> 00:01:22,240
+put in a two. And you get 2 * 2, that's
+
+30
+00:01:18,320 --> 00:01:24,640
+four. So, 4 + 1 is equal to five. So,
+
+31
+00:01:22,240 --> 00:01:25,759
+two is the right answer. And then of
+
+32
+00:01:24,640 --> 00:01:28,080
+course your teacher would give you a
+
+33
+00:01:25,759 --> 00:01:31,640
+nice little happy face and a bunch of
+
+34
+00:01:28,080 --> 00:01:35,040
+stars. So yes indeed this right here is
+
+35
+00:01:31,640 --> 00:01:37,759
+algebra. So instead of an x to represent
+
+36
+00:01:35,040 --> 00:01:42,479
+a number what we have here is another
+
+37
+00:01:37,759 --> 00:01:45,520
+symbol a box. All right. So 2 * a box +
+
+38
+00:01:42,479 --> 00:01:47,600
+1 is equal to 5. But this is an
+
+39
+00:01:45,520 --> 00:01:49,040
+algebraic equation. All right. All
+
+40
+00:01:47,600 --> 00:01:52,159
+right, so let's talk about how to solve
+
+41
+00:01:49,040 --> 00:01:53,840
+this equation uh using algebra and not
+
+42
+00:01:52,159 --> 00:01:55,840
+just kind of a guess and check method
+
+43
+00:01:53,840 --> 00:01:58,240
+because we could do the same thing here.
+
+44
+00:01:55,840 --> 00:02:00,719
+We can simply plug in some numbers for x
+
+45
+00:01:58,240 --> 00:02:02,799
+until we get the right answer. But in
+
+46
+00:02:00,719 --> 00:02:05,600
+algebra, what we want to do is figure
+
+47
+00:02:02,799 --> 00:02:08,399
+out what x is equal to. So the way we're
+
+48
+00:02:05,600 --> 00:02:10,640
+going to do that is get all of our uh
+
+49
+00:02:08,399 --> 00:02:12,640
+variables on the left hand side. So in
+
+50
+00:02:10,640 --> 00:02:15,760
+this case, it would just be x and then
+
+51
+00:02:12,640 --> 00:02:17,360
+one number on the right hand side. So to
+
+52
+00:02:15,760 --> 00:02:20,239
+do that we have to follow the golden
+
+53
+00:02:17,360 --> 00:02:22,239
+rule of algebra and that is whatever we
+
+54
+00:02:20,239 --> 00:02:24,319
+do to one side of the equation we have
+
+55
+00:02:22,239 --> 00:02:26,319
+to do the exact same thing on the other
+
+56
+00:02:24,319 --> 00:02:28,239
+side. All right. So the first thing that
+
+57
+00:02:26,319 --> 00:02:30,640
+we're going to do is subtract one from
+
+58
+00:02:28,239 --> 00:02:33,360
+both sides of the equation. Then add
+
+59
+00:02:30,640 --> 00:02:37,200
+down in a column manner. All right. So
+
+60
+00:02:33,360 --> 00:02:39,200
+we're going to get 2x + nothing is 2x. 1
+
+61
+00:02:37,200 --> 00:02:43,200
+- 1 is zero. And this is going to be
+
+62
+00:02:39,200 --> 00:02:44,959
+equal to 5 - 1 which is 4. Okay. So to
+
+63
+00:02:43,200 --> 00:02:47,599
+solve for x, all we have to do is divide
+
+64
+00:02:44,959 --> 00:02:50,239
+both sides of the equation by two. So x
+
+65
+00:02:47,599 --> 00:02:52,480
+is equal to 2, which is the right
+
+66
+00:02:50,239 --> 00:02:53,599
+answer. For more math help, make sure to
+
+67
+00:02:52,480 --> 00:02:57,200
+check out the link in the description
+
+68
+00:02:53,599 --> 00:02:57,200
+and the comment section.
+
