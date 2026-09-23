@@ -39,6 +39,41 @@ function renderVideo(item) {
 	return video;
 }
 
+function renderVideoCollection(collection, allItems) {
+	const wrapper = document.createElement('div');
+	wrapper.className = 'stack';
+
+	for (const slug of collection.items || []) {
+		const item = allItems.find((entry) => entry.slug === slug);
+		const section = document.createElement('section');
+		section.className = 'card';
+
+		if (!item) {
+			const notice = document.createElement('p');
+			notice.className = 'notice';
+			notice.textContent = `The lesson "${slug}" could not be found.`;
+			section.appendChild(notice);
+		} else {
+			const heading = document.createElement('h3');
+			heading.textContent = item.title || 'Algebra lesson';
+			section.appendChild(heading);
+
+			if (item.description) {
+				const description = document.createElement('p');
+				description.className = 'muted';
+				description.textContent = item.description;
+				section.appendChild(description);
+			}
+
+			section.appendChild(renderVideo(item));
+		}
+
+		wrapper.appendChild(section);
+	}
+
+	return wrapper;
+}
+
 function renderImage(item) {
 	const image = document.createElement('img');
 	image.className = 'media-image';
@@ -78,7 +113,9 @@ async function init() {
 		const container = document.getElementById('media-container');
 		container.innerHTML = '';
 
-		if (item.type === 'gif' || item.type === 'image') {
+		if (item.type === 'collection') {
+			container.appendChild(renderVideoCollection(item, data.items || []));
+		} else if (item.type === 'gif' || item.type === 'image') {
 			container.appendChild(renderImage(item));
 		} else {
 			container.appendChild(renderVideo(item));
