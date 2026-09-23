@@ -7,7 +7,12 @@
 			"file": "media/math/multiplication/11x.mp4",
 			"mime": "video/mp4",
 			"description": "Handy tricks to help you with your eleven times table once you get past 12.",
-			"path": ["Math", "Multiplication", "11x", "11 Times Table Trick"]
+			"path": [
+				"Math",
+				"Multiplication",
+				"11x",
+				"11 Times Table Trick"
+			]
 		},
 		{
 			"slug": "math-multiplication-3x-gif",
@@ -16,25 +21,55 @@
 			"file": "media/math/multiplication/3x.gif",
 			"mime": "video/mp4",
 			"description": "Example lesson entry for the 3 times table.",
-			"path": ["Math", "Multiplication", "3x", "3 Times Tables Tricks"]
+			"path": [
+				"Math",
+				"Multiplication",
+				"3x",
+				"3 Times Tables Tricks"
+			]
 		},
 		{
- 			"slug": "math-algebra-1",
-  			"title": "Algebra 1 - Understanding Variables",
-  			"type": "video",
-  			"file": "media/math/algebra/Algebra Video for Kids Solve Equations with Variables  Star Toaster.mp4",
-  			"mime": "video/mp4",
-  			"description": "An introduction to variables and solving equations using addition and subtraction.",
-  			"path": ["Math", "Algebra", "Algebra 1", "Understanding Variables"]
+			"slug": "math-algebra",
+			"title": "Algebra - Understanding and Solving Equations",
+			"type": "collection",
+			"description": "Watch both lessons to learn what a variable means and how to solve algebraic equations. Choose either video below.",
+			"path": [
+				"Math",
+				"Algebra",
+				"Understanding and Solving Equations"
+			],
+			"items": [
+				"math-algebra-1",
+				"math-algebra-2"
+			]
 		},
 		{
-  			"slug": "math-algebra-2",
-  			"title": "Algebra 2 - Solving Equations",
-  			"type": "video",
-  			"file": "media/math/algebra/simple algebra equation....mp4",
-  			"mime": "video/mp4",
-  			"description": "Learn to solve equations involving multiplication, division, addition, and subtraction.",
-  			"path": ["Math", "Algebra", "Algebra 2", "Solving Equations"]
+			"slug": "math-algebra-1",
+			"title": "Algebra 1 - Understanding Variables",
+			"type": "video",
+			"file": "media/math/algebra/Algebra Video for Kids Solve Equations with Variables  Star Toaster.mp4",
+			"mime": "video/mp4",
+			"description": "An introduction to variables and solving equations using addition and subtraction.",
+			"path": [
+				"Math",
+				"Algebra",
+				"Algebra 1",
+				"Understanding Variables"
+			]
+		},
+		{
+			"slug": "math-algebra-2",
+			"title": "Algebra 2 - Solving Equations",
+			"type": "video",
+			"file": "media/math/algebra/simple algebra equation....mp4",
+			"mime": "video/mp4",
+			"description": "Learn to solve equations involving multiplication, division, addition, and subtraction.",
+			"path": [
+				"Math",
+				"Algebra",
+				"Algebra 2",
+				"Solving Equations"
+			]
 		},
 		{
 			"slug": "spanish-colors-basics",
@@ -43,7 +78,11 @@
 			"file": "media/spanish/colors/colors-basics.mp4",
 			"mime": "video/mp4",
 			"description": "Example Spanish lesson video entry.",
-			"path": ["Spanish", "Colors", "Spanish Colors Basics"]
+			"path": [
+				"Spanish",
+				"Colors",
+				"Spanish Colors Basics"
+			]
 		},
 		{
 			"slug": "spelling-long-a-example-gif",
@@ -51,7 +90,11 @@
 			"type": "gif",
 			"file": "media/spelling/long-a/long-a-example.gif",
 			"description": "Example animated GIF entry.",
-			"path": ["Spelling", "Long A", "Long A Example GIF"]
+			"path": [
+				"Spelling",
+				"Long A",
+				"Long A Example GIF"
+			]
 		},
 		{
 			"slug": "history-american-revolution",
@@ -60,16 +103,25 @@
 			"file": "media/history/americanrevolution.mkv",
 			"mime": "video/mp4",
 			"description": "A brief history of the American Revolutionary War.",
-			"path": ["History", "United States", "American Revolution"]
+			"path": [
+				"History",
+				"United States",
+				"American Revolution"
+			]
 		},
-			{
+		{
 			"slug": "history-english-civil-war",
 			"title": "The English Civil War",
 			"type": "video",
 			"file": "media/history/englishcivilwarhh.mp4",
 			"mime": "video/mp4",
 			"description": "A brief history of the English Civil War.",
-			"path": ["History", "Europe", "The United Kingdom", "The English Civil War"]
+			"path": [
+				"History",
+				"Europe",
+				"The United Kingdom",
+				"The English Civil War"
+			]
 		}
 	]
 }
