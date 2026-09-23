@@ -60,6 +60,10 @@
 			"title": "Spanish",
 			"children": [
 				{
+					"title": "Body Parts",
+					"item": "spanish-body-parts"
+				},
+				{
 					"title": "Colors",
 					"children": [
 						{
