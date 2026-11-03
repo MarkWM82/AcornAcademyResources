@@ -123,6 +123,21 @@
 					]
 				}
 			]
+		},
+		{
+			"title": "Sacred Art",
+			"open": true,
+			"children": [
+				{
+					"title": "Biblical Stories",
+					"children": [
+						{
+							"title": "The Annunciation — Leonardo da Vinci",
+							"url": "sacred-art/annunciation.html"
+						}
+					]
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Explore the Annunciation — Acorn Academy</title>
+<style>
+:root{font-family:system-ui,Segoe UI,Arial,sans-serif;color:#243629;background:#f4f1e8}*{box-sizing:border-box}body{margin:0}header{background:#213a2d;color:#fff;padding:18px max(20px,calc((100vw - 1120px)/2))}header p{margin:5px 0 0;color:#dce8dd}.wrap{max-width:1120px;margin:auto;padding:18px}.card{background:#fff;border:1px solid #d6ddce;border-radius:14px;padding:20px;margin:15px 0;box-shadow:0 1px 3px #0001}h1{font-size:clamp(26px,4vw,39px);margin:0}h2{font-size:23px;margin:0 0 10px}h3{margin:0 0 8px}p{line-height:1.6}button{background:#28634b;color:white;border:0;border-radius:9px;padding:10px 14px;margin:3px;cursor:pointer;font:inherit}button:hover,button:focus{background:#174331}button.secondary{background:#edf3eb;color:#24432c;border:1px solid #bacfbb}button:focus-visible,a:focus-visible{outline:3px solid #ffbc4f}a{color:#245e48}nav a{color:#e5f5e5;margin-right:18px}.muted{color:#5a6c60}.tiny{font-size:.87rem}.viewer{position:relative;width:100%;aspect-ratio:4057/1840;background:#17271c;overflow:hidden;touch-action:none;cursor:grab;border-radius:10px;user-select:none}.viewer.dragging{cursor:grabbing}.scene{position:absolute;inset:0;transform-origin:0 0}.scene img{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}.hotspot{position:absolute;width:28px;height:28px;margin:-14px 0 0 -14px;border:2px solid white;border-radius:50%;background:#bc6b27;color:white;box-shadow:0 2px 8px #0009;transform:translate(-50%,-50%);font-weight:bold;padding:0}.hotspot:hover,.hotspot:focus{background:#8b4209;scale:1.18}.controls{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin:12px 0}.details{display:grid;grid-template-columns:1fr 1fr;gap:16px}.detail-list{display:flex;flex-wrap:wrap;gap:5px;align-content:start}.detail-panel{min-height:175px;padding:15px;background:#f5f8f2;border-radius:10px;border:1px solid #dbe7d7}.tag{display:inline-block;font-size:.78rem;background:#e4eee1;color:#255438;padding:4px 9px;border-radius:30px}.answer{display:block;width:100%;text-align:left;background:#f0f4eb;color:#203e2a;border:1px solid #c6d5c2}.answer.correct{background:#d3f0d8;border-color:#448e51}.answer.incorrect{background:#f9e6dd;border-color:#a75d46}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.chip{padding:10px;border-radius:9px;background:#f4f6f0}.label{font-weight:bold}.footer{font-size:.9rem;color:#576b5b}.feedback{padding:12px;background:#eef3ec;border-radius:8px;min-height:46px}@media(max-width:730px){.details,.grid{grid-template-columns:1fr}.card{padding:14px}.hotspot{width:25px;height:25px}header{padding:18px}}
+.passage{margin:16px 0;border:1px solid #cddcc9;border-radius:10px;background:#f9fbf6}.passage summary{font-weight:700;padding:13px 16px;cursor:pointer;background:#eaf1e5;border-radius:10px}.bible-text{padding:8px 20px 15px;max-width:75ch}.verse{margin:8px 0;line-height:1.65}.verse sup{font-weight:bold;color:#33664c;margin-right:6px;font-size:.8em}</style>
+</head>
+<body>
+<header><h1>Explore the Annunciation</h1><p>Acorn Academy · Saints, Stories &amp; Symbols</p><nav><a href="../index.html">Home</a> <a href="../sitemap.html">Site Map</a></nav></header>
+<main class="wrap">
+<section class="card"><h2>Leonardo da Vinci's Annunciation</h2>
+<p><strong>Florence, about 1472–1475.</strong> This painting shows the angel Gabriel bringing a message to Mary. Explore the whole image, zoom closer, and select a numbered marker to learn about a detail.</p>
+<p class="muted tiny">Image: high-resolution photograph supplied for Acorn Academy. This Resources page is publicly accessible by URL.</p>
+<div class="viewer" id="viewer" aria-label="Zoomable Annunciation painting"><div class="scene" id="scene"><img src="../media/sacred-art/annunciation.jpg" alt="Leonardo da Vinci's Annunciation: Gabriel kneels on the left while Mary sits reading on the right, separated by a garden.">
+<button class="hotspot" data-id="gabriel" style="left:25%;top:49%" aria-label="Explore Gabriel">1</button>
+<button class="hotspot" data-id="mary" style="left:75%;top:44%" aria-label="Explore Mary">2</button>
+<button class="hotspot" data-id="lilies" style="left:34%;top:50%" aria-label="Explore lilies">3</button>
+<button class="hotspot" data-id="book" style="left:61%;top:42%" aria-label="Explore Mary's book">4</button>
+<button class="hotspot" data-id="garden" style="left:42%;top:74%" aria-label="Explore garden">5</button>
+<button class="hotspot" data-id="landscape" style="left:46%;top:22%" aria-label="Explore landscape">6</button>
+</div></div>
+<div class="controls"><button id="zoomIn" type="button">+ Zoom in</button><button id="zoomOut" type="button">− Zoom out</button><button id="reset" class="secondary" type="button">Reset view</button><span class="muted tiny" id="zoomReadout" aria-live="polite">100%</span><span class="muted tiny">Mouse wheel or trackpad to zoom; drag to move; click numbers to explore</span></div>
+<div class="details"><div><h3>Choose a detail</h3><div class="detail-list" id="detailList"></div></div><section class="detail-panel" id="detailPanel" aria-live="polite"><h3>Start exploring</h3><p>Select a marker in the painting or one of the detail buttons.</p></section></div>
+</section>
+<section class="card" id="story"><h2>What is happening?</h2>
+<p>According to the Gospel of Luke (1:26–38), God sends the angel Gabriel to Mary in Nazareth. Gabriel tells her she will have a son named Jesus. Mary is initially troubled by the greeting and asks how this can happen. Gabriel explains that the Holy Spirit will come upon her. Mary accepts the message.</p>
+<p>Christians call this moment the <strong>Annunciation</strong>, meaning an announcement. It is an especially common subject in Italian religious art.</p>
+<details class="passage" open><summary>Read the complete Bible passage — Luke 1:26–38</summary><div class="bible-text">
+<p class="verse"><sup>26</sup> Now in the sixth month, the angel Gabriel was sent from God to a city of Galilee named Nazareth,</p>
+<p class="verse"><sup>27</sup> to a virgin pledged to be married to a man whose name was Joseph, of David’s house. The virgin’s name was Mary.</p>
+<p class="verse"><sup>28</sup> Having come in, the angel said to her, “Rejoice, you highly favored one! The Lord is with you. Blessed are you among women!”</p>
+<p class="verse"><sup>29</sup> But when she saw him, she was greatly troubled at the saying, and considered what kind of salutation this might be.</p>
+<p class="verse"><sup>30</sup> The angel said to her, “Don’t be afraid, Mary, for you have found favor with God.</p>
+<p class="verse"><sup>31</sup> Behold, you will conceive in your womb and give birth to a son, and shall name him ‘Jesus.’</p>
+<p class="verse"><sup>32</sup> He will be great and will be called the Son of the Most High. The Lord God will give him the throne of his father David,</p>
+<p class="verse"><sup>33</sup> and he will reign over the house of Jacob forever. There will be no end to his Kingdom.”</p>
+<p class="verse"><sup>34</sup> Mary said to the angel, “How can this be, seeing I am a virgin?”</p>
+<p class="verse"><sup>35</sup> The angel answered her, “The Holy Spirit will come on you, and the power of the Most High will overshadow you. Therefore also the holy one who is born from you will be called the Son of God.</p>
+<p class="verse"><sup>36</sup> Behold, Elizabeth your relative also has conceived a son in her old age; and this is the sixth month with her who was called barren.</p>
+<p class="verse"><sup>37</sup> For nothing spoken by God is impossible.”</p>
+<p class="verse"><sup>38</sup> Mary said, “Behold, the servant of the Lord; let it be done to me according to your word.” Then the angel departed from her.</p>
+<p class="tiny muted">World English Bible (WEB), public-domain translation. <a href="https://www.biblegateway.com/passage/?search=Luke%201%3A26-38&amp;version=WEB" target="_blank" rel="noopener noreferrer">Read this translation online</a>.</p>
+</div></details>
+
+<div class="grid"><div class="chip"><span class="label">From the Bible</span><p>Gabriel's visit, the greeting, Mary's question, and her response are described in Luke.</p></div><div class="chip"><span class="label">From artistic tradition</span><p>Gabriel's wings, the lily, Mary's book, and the carefully arranged garden are visual conventions that help communicate the story; Luke does not describe these details.</p></div></div>
+</section>
+<section class="card" id="quiz"><h2>Try an Art Detective question</h2><p class="muted">These are examples of fact-based questions we could eventually include in Acorn Academy. They are not connected to the game's rewards or progress yet.</p>
+<div id="questionText" class="label"></div><div id="choices"></div><div id="feedback" class="feedback" aria-live="polite">Choose an answer to see the explanation.</div><div class="controls"><button id="nextQuestion" type="button">Next question</button></div></section>
+<section class="card"><h2>Something to discuss</h2><p><strong>Art Detective:</strong> Leonardo painted Mary and Gabriel with quite different gestures. What do you notice about their hands and faces? Do those details change the way you imagine the conversation?</p><p class="muted tiny">There is no correct answer here. This is a question to explore, perhaps with Mummy or Daddy.</p></section>
+<section class="card"><h2>Explore further</h2>
+<p><a href="https://www.uffizi.it/en/artworks/annunciation" target="_blank" rel="noopener">Uffizi Galleries — Leonardo's Annunciation</a></p>
+<p><a href="https://www.biblegateway.com/passage/?search=Luke%201%3A26-38" target="_blank" rel="noopener">Read Luke 1:26–38 (choose a Bible translation)</a></p>
+<p class="muted">Next, we can add other artists' Annunciation paintings and let you compare how they tell the same story.</p></section>
+<p class="footer">Prototype created for personal educational use. Artwork: Leonardo da Vinci, <i>Annunciation</i>, Uffizi Galleries. Painting photograph supplied by the family.</p>
+</main>
+<script>
+const details={
+gabriel:{name:"Gabriel",type:"Bible and artistic convention",text:"Luke identifies Gabriel as the messenger sent to Mary. Leonardo paints him kneeling, raising a hand in greeting, and wearing wings. The wings visually identify him as an angel; Luke does not describe them."},
+mary:{name:"Mary",type:"Bible and interpretation",text:"Mary receives Gabriel's message. Luke describes her as troubled by the greeting and asking how the announcement will come true. Her gestures in Leonardo's painting invite us to consider how she might be responding."},
+lilies:{name:"The lily",type:"Later Christian symbolism",text:"Gabriel holds white lilies, traditionally associated with Mary's purity. Their precise appearance is an artistic choice: Luke's account does not describe Gabriel bringing flowers."},
+book:{name:"The book and lectern",type:"Artistic convention",text:"Leonardo places a book on an elaborate stand in front of Mary. Books in Annunciation paintings often suggest her devotion and study. The Bible does not state that she was reading when Gabriel arrived."},
+garden:{name:"The enclosed garden",type:"Traditional symbolism",text:"The carefully bounded garden can recall the 'enclosed garden' image from the Song of Songs, traditionally associated with Mary's purity. The detailed plants and flowers also demonstrate Leonardo's careful observation of nature."},
+landscape:{name:"The distant landscape",type:"Artistic setting",text:"Leonardo opens the view toward distant mountains and water. This is the artist's imagined setting, not a geographical account of the room in Nazareth. Consider how the far-off landscape makes the scene feel larger."}
+};
+const qs=[
+{q:"Who brings the message to Mary in Luke's account?",choices:["Raphael","Gabriel","Michael","Peter"],right:1,why:"Luke 1:26 names Gabriel as the angel sent to Mary.",id:"ANN-FIG-GABRIEL"},
+{q:"Which detail is traditionally associated with Mary's purity?",choices:["The white lily","A sword","A wheel","A set of keys"],right:0,why:"White lilies are a traditional Marian symbol, not an object named in Luke's narrative.",id:"ANN-SYM-LILY"},
+{q:"Which detail is explicitly mentioned in Luke's account?",choices:["Gabriel's feathered wings","Mary's carved lectern","Gabriel delivering a message to Mary","A garden full of lilies"],right:2,why:"The message is in Luke 1:26–38. The other details belong to artistic convention.",id:"ANN-SOURCE-DISTINCTION"},
+{q:"Why is this scene called the Annunciation?",choices:["An angel announces an important message","The shepherds hear about a birth","The Magi arrive with gifts","Jesus is baptized"],right:0,why:"Annunciation means announcement; Gabriel announces that Mary will have a son named Jesus.",id:"ANN-STORY-IDENTITY"},
+{q:"Which scene is Leonardo depicting?",choices:["The Baptism of Christ","The Annunciation","The Last Supper","The Adoration of the Magi"],right:1,why:"Gabriel greeting Mary identifies this scene as the Annunciation.",id:"ANN-STORY-IDENTITY"}
+];
+const viewer=document.getElementById('viewer'),scene=document.getElementById('scene'),panel=document.getElementById('detailPanel'),readout=document.getElementById('zoomReadout');
+let scale=1,x=0,y=0,drag=null;
+function clamp(v,a,b){return Math.min(b,Math.max(a,v))}
+function render(){const w=viewer.clientWidth,h=viewer.clientHeight;x=clamp(x,w*(1-scale),0);y=clamp(y,h*(1-scale),0);scene.style.transform='translate('+x+'px,'+y+'px) scale('+scale+')';readout.textContent=Math.round(scale*100)+'%'}
+function zoom(factor,clientX,clientY){const rect=viewer.getBoundingClientRect(),cx=clientX-rect.left,cy=clientY-rect.top,old=scale;scale=clamp(scale*factor,1,5);x=cx-(cx-x)*scale/old;y=cy-(cy-y)*scale/old;render()}
+document.getElementById('zoomIn').onclick=()=>zoom(1.35,viewer.getBoundingClientRect().left+viewer.clientWidth/2,viewer.getBoundingClientRect().top+viewer.clientHeight/2);
+document.getElementById('zoomOut').onclick=()=>zoom(1/1.35,viewer.getBoundingClientRect().left+viewer.clientWidth/2,viewer.getBoundingClientRect().top+viewer.clientHeight/2);
+document.getElementById('reset').onclick=()=>{scale=1;x=0;y=0;render()};
+viewer.addEventListener('wheel',e=>{e.preventDefault();zoom(e.deltaY<0?1.15:1/1.15,e.clientX,e.clientY)},{passive:false});
+viewer.addEventListener('pointerdown',e=>{if(e.target.closest('.hotspot'))return;drag={id:e.pointerId,cx:e.clientX,cy:e.clientY,ox:x,oy:y};viewer.setPointerCapture(e.pointerId);viewer.classList.add('dragging')});
+viewer.addEventListener('pointermove',e=>{if(!drag||drag.id!==e.pointerId)return;x=drag.ox+e.clientX-drag.cx;y=drag.oy+e.clientY-drag.cy;render()});
+function endDrag(){drag=null;viewer.classList.remove('dragging')}viewer.addEventListener('pointerup',endDrag);viewer.addEventListener('pointercancel',endDrag);window.addEventListener('resize',render);
+function selectDetail(id){const d=details[id];panel.innerHTML='';const h=document.createElement('h3');h.textContent=d.name;const label=document.createElement('span');label.className='tag';label.textContent=d.type;const p=document.createElement('p');p.textContent=d.text;panel.append(h,label,p);document.querySelectorAll('[data-id]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.id===id)))}
+const list=document.getElementById('detailList');for(const [id,d] of Object.entries(details)){const b=document.createElement('button');b.className='secondary';b.type='button';b.dataset.id=id;b.textContent=d.name;list.append(b)}
+document.querySelectorAll('[data-id]').forEach(b=>b.addEventListener('click',()=>selectDetail(b.dataset.id)));
+let qi=0;function drawQuestion(){const q=qs[qi];document.getElementById('questionText').textContent=q.q;const root=document.getElementById('choices');root.innerHTML='';document.getElementById('feedback').textContent='Choose an answer to see the explanation.';q.choices.forEach((c,i)=>{const b=document.createElement('button');b.className='answer';b.textContent=String.fromCharCode(65+i)+'. '+c;b.onclick=()=>{root.querySelectorAll('button').forEach((item,j)=>{item.disabled=true;if(j===q.right)item.classList.add('correct');else if(j===i)item.classList.add('incorrect')});document.getElementById('feedback').textContent=(i===q.right?'Correct! ':'Not quite. ')+q.why+' · Concept: '+q.id};root.append(b)})}
+document.getElementById('nextQuestion').onclick=()=>{qi=(qi+1)%qs.length;drawQuestion()};drawQuestion();render();
+</script></body></html>
