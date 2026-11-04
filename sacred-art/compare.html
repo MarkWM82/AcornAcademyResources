@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Compare Sacred Art — Acorn Academy</title>
+<style>
+:root{font-family:system-ui,Segoe UI,Arial,sans-serif;color:#243629;background:#f4f1e8}*{box-sizing:border-box}
+body{margin:0}header{background:#213a2d;color:#fff;padding:18px max(20px,calc((100vw - 1120px)/2))}
+header p{margin:5px 0 12px;color:#dce8dd}header a{color:#e5f5e5;margin-right:16px}
+main{max-width:1120px;margin:auto;padding:18px}.card{background:#fff;border:1px solid #d6ddce;border-radius:14px;padding:20px;margin:15px 0;box-shadow:0 1px 3px #0001}
+h1{font-size:clamp(27px,4vw,38px);margin:0}h2{font-size:23px;margin:0 0 12px}h3{font-size:19px;margin:10px 0}p{line-height:1.55}a{color:#245e48}
+button{background:#28634b;color:#fff;border:0;border-radius:9px;padding:10px 14px;cursor:pointer;font:inherit}button.secondary{background:#e7f0e5;color:#24432c;border:1px solid #bacfbb}button:disabled{background:#becdc4;color:#344a3c;cursor:not-allowed}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #ffbc4f}
+.muted{color:#566a5b}.tiny{font-size:.89rem}.selectors,.paintings{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+label{display:block;font-weight:700;margin-bottom:6px}
+select{width:100%;font:inherit;min-width:0;padding:11px;border:1px solid #9caf9f;border-radius:8px;background:white;color:#203e2a}
+.controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px}
+.painting-viewer{height:310px;position:relative;overflow:hidden;touch-action:none;border-radius:10px;background:#17271c;cursor:grab}
+.painting-viewer.dragging{cursor:grabbing}.painting-viewer img{position:absolute;width:100%;height:100%;object-fit:contain;transform-origin:0 0;pointer-events:none;user-select:none}
+.zoom{display:flex;gap:8px;margin-top:8px;align-items:center}
+.fact-table{width:100%;border-collapse:collapse}.fact-table th,.fact-table td{padding:12px 10px;vertical-align:top;text-align:left;border-bottom:1px solid #e0e5db}
+.fact-table th{width:20%;background:#f4f7f1}.fact-table td{width:40%}
+.note{border-left:4px solid #5f886d;padding:12px 15px;background:#f4f8f1;border-radius:6px}
+@media(max-width:750px){.selectors,.paintings{grid-template-columns:1fr}.fact-table{display:block;overflow-x:auto}.fact-table th{min-width:120px}.fact-table td{min-width:210px}.card{padding:14px}.painting-viewer{height:265px}}
+</style>
+</head>
+<body>
+<header><h1>Go Side by Side</h1><p>Acorn Academy · Sacred Art</p>
+<nav><a href="../index.html">Home</a><a href="annunciation.html" id="backLink">Back to the Annunciation</a></nav>
+</header>
+<main>
+<section class="card"><h2 id="subjectTitle">Compare Two Paintings</h2><p id="subjectIntro">Choose two paintings to compare their settings, people, symbols, and art history.</p>
+<div class="selectors"><div><label for="first">First painting</label><select id="first"><option>Loading…</option></select></div>
+<div><label for="second">Second painting</label><select id="second"><option>Loading…</option></select></div></div>
+<div class="controls"><button id="compare" disabled>Go Side by Side</button><span class="muted tiny" id="notice" aria-live="polite">Loading the collection…</span></div>
+</section>
+<section class="card" id="results" hidden>
+<h2>Look at both paintings</h2><p class="muted">Use the zoom buttons and drag each image independently to examine the details.</p>
+<div class="paintings"><div id="leftPainting"></div><div id="rightPainting"></div></div>
+</section>
+<section class="card" id="details" hidden><h2>What is different?</h2>
+<p>Both artists tell the same story, but they make different choices. Compare each detail.</p>
+<div style="overflow-x:auto"><table class="fact-table"><thead><tr><th>What to notice</th><th id="leftHead">First painting</th><th id="rightHead">Second painting</th></tr></thead><tbody id="facts"></tbody></table></div>
+</section>
+<section class="card" id="artHistory" hidden><h2>A Little Art History</h2><div class="paintings"><div id="leftHistory"></div><div id="rightHistory"></div></div></section>
+<section class="card" id="same" hidden><h2>What is the same?</h2><p id="sameText"></p><p class="note">Art Detective: Find Gabriel and Mary in each painting. Which signs help you recognize the story, even though the artists work in different ways?</p></section>
+<footer class="tiny muted">The selection list contains only artworks whose images have been prepared for Acorn Academy. Additional paintings will appear as the collection expands.</footer>
+</main>
+<script>
+const params=new URLSearchParams(location.search);
+const subjectId=params.get('subject')||'annunciation';
+const first=document.getElementById('first'),second=document.getElementById('second'),compare=document.getElementById('compare'),notice=document.getElementById('notice');
+let items=[],subject=null;
+function node(tag,content,cls){const e=document.createElement(tag);if(content!==undefined)e.textContent=content;if(cls)e.className=cls;return e}
+function clearAndOptions(select,available){select.replaceChildren();for(const painting of available){const o=document.createElement('option');o.value=painting.id;o.textContent=painting.artist+' — '+painting.title;select.append(o)}}
+function selected(){return [items.find(p=>p.id===first.value),items.find(p=>p.id===second.value)]}
+function sync(){const [a,b]=selected();compare.disabled=!(a&&b&&a.id!==b.id);notice.textContent=compare.disabled?'Choose two different paintings.':'Ready! Select Go Side by Side.'}
+function viewer(container,painting){const name=node('h3',painting.artist);container.append(name,node('p',painting.title+' · '+painting.date+' · '+painting.museum,'muted tiny'));
+ const view=node('div',undefined,'painting-viewer'),pic=node('img');pic.src=painting.image;pic.alt=painting.artist+' — '+painting.title;view.append(pic);container.append(view);
+ const controls=node('div',undefined,'zoom'),plus=node('button','+ Zoom in','secondary'),minus=node('button','− Zoom out','secondary'),reset=node('button','Reset','secondary'),readout=node('span','100%','tiny muted');
+ controls.append(plus,minus,reset,readout);container.append(controls);
+ let scale=1,x=0,y=0,drag=null;function draw(){const w=view.clientWidth,h=view.clientHeight;x=Math.min(0,Math.max(w*(1-scale),x));y=Math.min(0,Math.max(h*(1-scale),y));pic.style.transform='translate('+x+'px,'+y+'px) scale('+scale+')';readout.textContent=Math.round(scale*100)+'%'}
+ function zoom(f){const before=scale;scale=Math.max(1,Math.min(4,scale*f));x=view.clientWidth/2-(view.clientWidth/2-x)*scale/before;y=view.clientHeight/2-(view.clientHeight/2-y)*scale/before;draw()}
+ plus.onclick=()=>zoom(1.35);minus.onclick=()=>zoom(1/1.35);reset.onclick=()=>{scale=1;x=0;y=0;draw()};
+ view.addEventListener('wheel',e=>{e.preventDefault();zoom(e.deltaY<0?1.12:1/1.12)},{passive:false});
+ view.addEventListener('pointerdown',e=>{drag={id:e.pointerId,startX:e.clientX,startY:e.clientY,x,y};view.setPointerCapture(e.pointerId);view.classList.add('dragging')});
+ view.addEventListener('pointermove',e=>{if(!drag||drag.id!==e.pointerId)return;x=drag.x+e.clientX-drag.startX;y=drag.y+e.clientY-drag.startY;draw()});
+ function end(){drag=null;view.classList.remove('dragging')}view.addEventListener('pointerup',end);view.addEventListener('pointercancel',end);
+ const link=node('a','Museum description');link.href=painting.source_url;link.target='_blank';link.rel='noopener noreferrer';container.append(node('p'));container.lastChild.append(link);
+ draw();
+}
+function showComparison(){const [a,b]=selected();if(!(a&&b)||a.id===b.id)return;
+ const query=new URLSearchParams({subject:subjectId,a:a.id,b:b.id});history.replaceState(null,'','?'+query.toString());
+ for(const id of ['results','details','artHistory','same'])document.getElementById(id).hidden=false;
+ const left=document.getElementById('leftPainting'),right=document.getElementById('rightPainting');left.replaceChildren();right.replaceChildren();viewer(left,a);viewer(right,b);
+ document.getElementById('leftHead').textContent=a.artist;document.getElementById('rightHead').textContent=b.artist;
+ const facts=document.getElementById('facts');facts.replaceChildren();
+ const rows=[['Setting','setting'],["Mary's response",'mary'],['Gabriel','gabriel'],['Symbols','symbols'],['Light and atmosphere','light']];
+ for(const [title,key] of rows){const tr=node('tr');tr.append(node('th',title),node('td',a.visual[key]||'Not recorded yet.'),node('td',b.visual[key]||'Not recorded yet.'));facts.append(tr)}
+ const leftHistory=document.getElementById('leftHistory'),rightHistory=document.getElementById('rightHistory');leftHistory.replaceChildren();rightHistory.replaceChildren();
+ leftHistory.append(node('h3',a.artist+' ('+a.date+')'),node('p',a.history));rightHistory.append(node('h3',b.artist+' ('+b.date+')'),node('p',b.history));
+ document.getElementById('sameText').textContent=subject.intro||'Both paintings depict the same subject.';
+}
+async function initialize(){
+ try{const response=await fetch('../data/sacred-art-paintings.json',{cache:'no-store'});if(!response.ok)throw Error('Could not load artwork list');
+ const catalog=await response.json();subject=catalog.subjects.find(s=>s.id===subjectId);
+ if(!subject){notice.textContent='This subject is not available yet.';return}
+ document.getElementById('subjectTitle').textContent=subject.title+' — Compare Two Paintings';document.getElementById('subjectIntro').textContent=subject.intro;
+ items=catalog.paintings.filter(p=>p.subject===subjectId&&p.available&&p.image);
+ if(items.length<2){first.replaceChildren();second.replaceChildren();first.append(new Option(items.length?items[0].artist+' — '+items[0].title:'No paintings available',items[0]?.id||''));second.append(new Option('More paintings coming soon',''));first.disabled=true;second.disabled=true;compare.disabled=true;notice.textContent='One painting is ready. When another image is added, this page will let you compare them.';return}
+ clearAndOptions(first,items);clearAndOptions(second,items);
+ const requestedA=params.get('a'),requestedB=params.get('b');first.value=items.some(p=>p.id===requestedA)?requestedA:items[0].id;second.value=items.some(p=>p.id===requestedB)?requestedB:items[1].id;
+ first.addEventListener('change',sync);second.addEventListener('change',sync);compare.addEventListener('click',showComparison);sync();if(!compare.disabled)showComparison();
+ }catch(e){notice.textContent='The painting list could not be loaded. Please refresh the page.'}
+}
+initialize();
+</script>
+</body></html>
