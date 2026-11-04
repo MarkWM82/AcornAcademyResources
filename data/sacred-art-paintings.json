@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "subjects": [
     {
       "id": "annunciation",
@@ -8,6 +8,312 @@
     }
   ],
   "paintings": [
+    {
+      "id": "simone-martini",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Simone Martini and Lippo Memmi",
+      "date": "1333",
+      "year": 1333,
+      "period": "International Gothic",
+      "museum": "Uffizi Galleries, Florence",
+      "medium": "Tempera and gold on wood",
+      "image": "../media/sacred-art/simone-martini.jpg",
+      "page": "paintings/simone-martini.html",
+      "available": true,
+      "source_url": "https://www.uffizi.it/en/artworks/annunciation-with-st-margaret-and-st-ansanus",
+      "visual": {
+        "setting": "A glowing gold background, with an elegant throne and marble floor but little sense of a real room.",
+        "mary": "Mary draws away from the unexpected visitor, gathering her blue cloak around herself.",
+        "gabriel": "Gabriel kneels with his cloak still fluttering, as if he has just landed.",
+        "symbols": "A vase of lilies, a descending dove, and Gabriel's greeting written in gold; saints stand on the side panels.",
+        "light": "Gold replaces natural daylight, making the scene look precious and otherworldly."
+      },
+      "history": "In 1333, the Sienese painters Simone Martini and Lippo Memmi created this large altarpiece for Siena Cathedral. Unlike a small picture for someone's home, an altarpiece could be seen by people gathering to pray in church. The artists signed and dated their work, so we know exactly when it was completed. Simone Martini is usually credited with most of the design.",
+      "history_paragraphs": [
+        "In 1333, the Sienese painters Simone Martini and Lippo Memmi created this large altarpiece for Siena Cathedral. Unlike a small picture for someone's home, an altarpiece could be seen by people gathering to pray in church. The artists signed and dated their work, so we know exactly when it was completed. Simone Martini is usually credited with most of the design.",
+        "This painting belongs to a style now called International Gothic. The figures wear elegant clothing, the shapes are graceful, and the background shines with gold. Look at Gabriel's patterned cloak and Mary's richly decorated throne. The artists were less concerned with creating an ordinary-looking room than with expressing the importance of a sacred event.",
+        "Gabriel's greeting is painted across the gold background in Latin: 'Ave gratia plena dominus tecum' ('Hail, full of grace, the Lord is with you'). Mary pulls back, startled by the angel's sudden arrival. A white dove, associated with the Holy Spirit, appears above the vase of lilies. Notice the two saints on the outer panels: this painting tells the Annunciation story while also honoring saints important to Siena."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel's arrival",
+          "x": 38,
+          "y": 53,
+          "kind": "Gesture",
+          "text": "Gabriel kneels, but his cloak still swirls behind him. His arrival feels sudden and energetic."
+        },
+        {
+          "id": "mary",
+          "label": "Mary's reaction",
+          "x": 67,
+          "y": 54,
+          "kind": "Expression",
+          "text": "Mary draws away and holds her cloak close. Compare this reaction with Mary's calm pose in Fra Angelico's painting."
+        },
+        {
+          "id": "words",
+          "label": "Words in gold",
+          "x": 49,
+          "y": 43,
+          "kind": "Bible and art",
+          "text": "Gabriel's Latin greeting is painted into the picture. The words come from Luke 1:28."
+        },
+        {
+          "id": "saints",
+          "label": "Side saints",
+          "x": 90,
+          "y": 61,
+          "kind": "Altarpiece",
+          "text": "The saints at the sides remind us that this was an altarpiece made for Siena Cathedral, not just a picture of one story."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why does this painting have a shining gold background?",
+          "choices": [
+            "It creates an otherworldly, sacred atmosphere",
+            "The artist forgot to paint the room",
+            "It shows a sunrise",
+            "It means the story happens outdoors"
+          ],
+          "right": 0,
+          "why": "Gold backgrounds were common in medieval religious paintings and helped suggest the holiness of the scene.",
+          "id": "AH-STYLE-GOTHIC"
+        },
+        {
+          "q": "What do the gold letters between Gabriel and Mary represent?",
+          "choices": [
+            "The artist's address",
+            "Gabriel's greeting to Mary",
+            "A date from a calendar",
+            "A warning from a king"
+          ],
+          "right": 1,
+          "why": "The Latin words show Gabriel's greeting from Luke 1:28.",
+          "id": "ANN-SOURCE-WORDS"
+        },
+        {
+          "q": "What is Mary's reaction in this version?",
+          "choices": [
+            "She is running toward Gabriel",
+            "She is asleep",
+            "She pulls back in surprise",
+            "She is holding a baby"
+          ],
+          "right": 2,
+          "why": "Simone Martini shows Mary startled, gathering her cloak around herself.",
+          "id": "ANN-MARY-RESPONSE"
+        }
+      ],
+      "aspect": 1.15212,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "fra-angelico",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Fra Angelico",
+      "date": "1425–1426",
+      "year": 1425,
+      "period": "Early Renaissance",
+      "museum": "Museo Nacional del Prado, Madrid",
+      "medium": "Tempera on poplar wood",
+      "image": "../media/sacred-art/fra-angelico.jpg",
+      "page": "paintings/fra-angelico.html",
+      "available": true,
+      "source_url": "https://www.museodelprado.es/en/the-collection/art-work/the-annunciation/9b02b6c9-3618-4a92-a6b7-26f9076fcb67",
+      "visual": {
+        "setting": "An open portico with rounded arches beside a garden.",
+        "mary": "Mary sits quietly with her hands crossed before her chest.",
+        "gabriel": "Gabriel bows respectfully in front of Mary under the arches.",
+        "symbols": "Adam and Eve are being expelled from Eden on the left, linking two Bible stories.",
+        "light": "Gentle colors and balanced architecture create a calm, contemplative atmosphere."
+      },
+      "history": "Fra Angelico was both a painter and a Dominican friar, a member of a religious community. He painted this Annunciation in 1425–1426 for a monastery in Fiesole, near Florence. He believed painting could help people reflect on their faith. His work combines the detailed elegance of older medieval art with new Renaissance attempts to show believable buildings and spaces.",
+      "history_paragraphs": [
+        "Fra Angelico was both a painter and a Dominican friar, a member of a religious community. He painted this Annunciation in 1425–1426 for a monastery in Fiesole, near Florence. He believed painting could help people reflect on their faith. His work combines the detailed elegance of older medieval art with new Renaissance attempts to show believable buildings and spaces.",
+        "Look at the arches, columns, and carefully arranged garden. Fra Angelico uses architecture to give the scene depth, although the perspective is not completely accurate by later Renaissance standards. Gabriel and Mary are balanced on opposite sides of the picture, creating a peaceful meeting. Their gestures are gentler than in Simone Martini's more dramatic Annunciation.",
+        "There is a surprising second story on the left: Adam and Eve are being sent out of the Garden of Eden. The artist placed the two events together deliberately. In Christian teaching, the Annunciation begins the story of salvation after humanity's fall. The smaller scenes along the bottom of the original altarpiece, called the predella, also told episodes from Mary's life."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel beneath arches",
+          "x": 37,
+          "y": 55,
+          "kind": "Composition",
+          "text": "The angel and Mary face one another beneath the building's arches. The balanced arrangement makes the scene feel quiet."
+        },
+        {
+          "id": "mary",
+          "label": "Mary",
+          "x": 73,
+          "y": 57,
+          "kind": "Gesture",
+          "text": "Mary sits calmly with her hands crossed, a different reaction from Simone Martini's startled Mary."
+        },
+        {
+          "id": "eden",
+          "label": "Adam and Eve",
+          "x": 13,
+          "y": 55,
+          "kind": "Two Bible stories",
+          "text": "On the far left, Adam and Eve leave Eden. Fra Angelico connects the beginning of sin with the Christian story of salvation."
+        },
+        {
+          "id": "arches",
+          "label": "Renaissance arches",
+          "x": 52,
+          "y": 21,
+          "kind": "Art history",
+          "text": "Rounded arches and receding spaces show how Renaissance painters used architecture to create depth."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Which other Bible story appears in Fra Angelico's Annunciation?",
+          "choices": [
+            "David and Goliath",
+            "Adam and Eve leaving Eden",
+            "Noah's ark",
+            "Moses and the burning bush"
+          ],
+          "right": 1,
+          "why": "Adam and Eve are shown at the left of the picture.",
+          "id": "ANN-OLD-NEW-TESTAMENT"
+        },
+        {
+          "q": "What was Fra Angelico as well as a painter?",
+          "choices": [
+            "A king",
+            "A sailor",
+            "A Dominican friar",
+            "A doctor"
+          ],
+          "right": 2,
+          "why": "Fra Angelico was a Dominican friar whose art was closely connected with religious devotion.",
+          "id": "AH-ARTIST-FRA-ANGELICO"
+        },
+        {
+          "q": "What do the arches help the painter show?",
+          "choices": [
+            "Three-dimensional space",
+            "A storm",
+            "A mountain range",
+            "The passing of seasons"
+          ],
+          "right": 0,
+          "why": "Architectural perspective gives the flat painting the appearance of depth.",
+          "id": "AH-TECH-PERSPECTIVE"
+        }
+      ],
+      "aspect": 1.41667,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "van-eyck",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Jan van Eyck",
+      "date": "c. 1434–1436",
+      "year": 1434,
+      "period": "Early Netherlandish Renaissance",
+      "museum": "National Gallery of Art, Washington, DC",
+      "medium": "Oil on canvas transferred from panel",
+      "image": "../media/sacred-art/van-eyck.jpg",
+      "page": "paintings/van-eyck.html",
+      "available": true,
+      "source_url": "https://www.nga.gov/artworks/46-annunciation",
+      "visual": {
+        "setting": "Inside a tall, richly detailed church, with stained-glass windows and patterned floor tiles.",
+        "mary": "Mary wears deep blue and responds to Gabriel near an open book.",
+        "gabriel": "Gabriel wears an elaborate jeweled robe and has brilliantly colored wings.",
+        "symbols": "A dove and rays of light, lilies, Old Testament imagery, and Latin words painted above the figures.",
+        "light": "Precisely observed surfaces and light make the stones, fabrics, and windows look almost real."
+      },
+      "history": "Jan van Eyck worked in the Low Countries, in the region that includes modern Belgium and the Netherlands. He painted this Annunciation around 1434–1436. While many Italian artists were exploring perspective, northern European painters became famous for their extraordinary attention to tiny details. Van Eyck was a master of oil painting, which allowed him to create rich colors and remarkably lifelike textures.",
+      "history_paragraphs": [
+        "Jan van Eyck worked in the Low Countries, in the region that includes modern Belgium and the Netherlands. He painted this Annunciation around 1434–1436. While many Italian artists were exploring perspective, northern European painters became famous for their extraordinary attention to tiny details. Van Eyck was a master of oil painting, which allowed him to create rich colors and remarkably lifelike textures.",
+        "Instead of placing Mary in a small room or garden, van Eyck puts the meeting inside a towering church. Look closely at the patterned floor, stained glass, shining jewels, and colorful angel wings. Each surface seems carefully observed. The building itself also helps tell the Christian story: parts of its decoration refer to the Old Testament, connecting earlier biblical events with the arrival of Jesus.",
+        "Van Eyck painted Latin words in the space between Gabriel and Mary. Gabriel's greeting reads 'Ave gratia plena' ('Hail, full of grace'). Mary's answer is painted upside down, so it can be imagined as being read from heaven. A dove represents the Holy Spirit. This is an excellent painting for careful looking, because many of its smallest details carry additional meaning."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel's robes",
+          "x": 34,
+          "y": 53,
+          "kind": "Northern Renaissance",
+          "text": "Gabriel's jeweled clothing and brilliantly colored wings show van Eyck's skill at painting rich textures."
+        },
+        {
+          "id": "mary",
+          "label": "Mary and her book",
+          "x": 70,
+          "y": 60,
+          "kind": "Symbol",
+          "text": "Mary wears blue and stands near a book. Her words to God appear upside down in the painted inscription."
+        },
+        {
+          "id": "dove",
+          "label": "Holy Spirit",
+          "x": 74,
+          "y": 34,
+          "kind": "Symbol",
+          "text": "A white dove and rays of light represent the Holy Spirit, mentioned in Luke 1:35."
+        },
+        {
+          "id": "architecture",
+          "label": "Church and windows",
+          "x": 49,
+          "y": 16,
+          "kind": "Art history",
+          "text": "Van Eyck gives the event a magnificent church setting, with biblical symbols worked into the architecture."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why are Mary's painted Latin words upside down?",
+          "choices": [
+            "So they can be read from heaven",
+            "Because the painting is hanging upside down",
+            "Because van Eyck couldn't write Latin",
+            "To hide a secret signature"
+          ],
+          "right": 0,
+          "why": "Van Eyck arranged Mary's words so they could be imagined as addressed upward to God.",
+          "id": "ANN-SOURCE-WORDS"
+        },
+        {
+          "q": "What is a famous strength of van Eyck's painting?",
+          "choices": [
+            "Large areas of plain gold",
+            "Extremely detailed textures and surfaces",
+            "No use of color",
+            "Abstract shapes"
+          ],
+          "right": 1,
+          "why": "He carefully depicted fabrics, jewels, stone, and light.",
+          "id": "AH-STYLE-NORTHERN-RENAISSANCE"
+        },
+        {
+          "q": "Which symbol represents the Holy Spirit?",
+          "choices": [
+            "A key",
+            "A crown",
+            "A white dove",
+            "A sword"
+          ],
+          "right": 2,
+          "why": "The dove appears near the top of the painting.",
+          "id": "ANN-SYM-DOVE"
+        }
+      ],
+      "aspect": 0.37909,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
     {
       "id": "leonardo-annunciation",
       "subject": "annunciation",
@@ -27,7 +333,726 @@
         "symbols": "Gabriel carries white lilies; the enclosed garden is associated with Mary's purity.",
         "light": "Soft light and distant mountains help make the scene feel like a real place."
       },
-      "history": "Painted when Leonardo was about twenty and working in Verrocchio's workshop. His careful study of nature and experiments with perspective are already visible."
+      "history": "Painted when Leonardo was about twenty and working in Verrocchio's workshop. His careful study of nature and experiments with perspective are already visible.",
+      "page": "annunciation.html",
+      "year": 1472,
+      "history_paragraphs": [],
+      "aspect": 2.20489,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "botticelli-san-martino",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Sandro Botticelli",
+      "date": "1481",
+      "year": 1481,
+      "period": "Early Renaissance",
+      "museum": "Uffizi Galleries, Florence",
+      "medium": "Detached fresco (originally painted on a wall)",
+      "image": "../media/sacred-art/botticelli-san-martino.jpg",
+      "page": "paintings/botticelli-san-martino.html",
+      "available": true,
+      "source_url": "https://www.uffizi.it/en/artworks/annunciation-635552ac-2628-47d6-a494-ccdf07f6154a",
+      "visual": {
+        "setting": "A large Renaissance palace with a portico, walled garden, and furnished bedroom.",
+        "mary": "Mary kneels in her room near a tall bed with curtains.",
+        "gabriel": "Gabriel approaches through the open portico on the left.",
+        "symbols": "The enclosed garden refers to Mary's purity; the room includes Renaissance furniture and a patterned carpet.",
+        "light": "Architectural lines and an outdoor view create an everyday-looking space."
+      },
+      "history": "Botticelli painted this huge Annunciation in 1481 as a fresco, meaning paint was applied to a prepared plaster wall. It once decorated an area beside the church of San Martino at the hospital of Santa Maria della Scala in Florence. Unlike a small portable painting, this artwork belonged to a building. Later changes to the building partly hid it, and it was removed from the wall and restored in 1920.",
+      "history_paragraphs": [
+        "Botticelli painted this huge Annunciation in 1481 as a fresco, meaning paint was applied to a prepared plaster wall. It once decorated an area beside the church of San Martino at the hospital of Santa Maria della Scala in Florence. Unlike a small portable painting, this artwork belonged to a building. Later changes to the building partly hid it, and it was removed from the wall and restored in 1920.",
+        "Look at how wide the scene is. Gabriel approaches from a portico, while Mary kneels farther away in a richly furnished room. A bed, curtains, chests, carpet, and open garden suggest the fashionable interiors of Renaissance Florence. Botticelli uses perspective to lead our eyes through the architecture and into Mary's room.",
+        "The details are not simply decorations. The enclosed garden was a traditional symbol of Mary's purity. The curtain around her bed has also been connected with biblical imagery of the Ark of the Covenant. The painting lets us see the Annunciation as both a holy event and a scene set in a world familiar to Botticelli's audience."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel",
+          "x": 12,
+          "y": 60,
+          "kind": "Gesture",
+          "text": "Gabriel enters through the portico on the left, beginning to approach Mary."
+        },
+        {
+          "id": "mary",
+          "label": "Mary's room",
+          "x": 88,
+          "y": 56,
+          "kind": "Setting",
+          "text": "Mary kneels in a room with a bed, curtains, and furniture typical of a prosperous Renaissance household."
+        },
+        {
+          "id": "garden",
+          "label": "Walled garden",
+          "x": 45,
+          "y": 35,
+          "kind": "Symbol",
+          "text": "The enclosed garden is associated in Christian art with Mary's purity."
+        },
+        {
+          "id": "floor",
+          "label": "Perspective and carpet",
+          "x": 65,
+          "y": 74,
+          "kind": "Art history",
+          "text": "The architecture and patterned surfaces draw the viewer's eye deeper into the palace."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What technique was used to create this very large painting?",
+          "choices": [
+            "Fresco on plaster",
+            "Mosaic tiles",
+            "Charcoal on paper",
+            "Glass engraving"
+          ],
+          "right": 0,
+          "why": "Botticelli painted it as a fresco on a wall; it was later detached.",
+          "id": "AH-TECH-FRESCO"
+        },
+        {
+          "q": "Which object helps show Mary's room as a Renaissance interior?",
+          "choices": [
+            "A computer",
+            "A tall bed with curtains",
+            "A car",
+            "A steam train"
+          ],
+          "right": 1,
+          "why": "Botticelli includes a tall bed, curtains, and chests.",
+          "id": "AH-SETTING-DOMESTIC"
+        },
+        {
+          "q": "What does the walled garden traditionally suggest?",
+          "choices": [
+            "A military fort",
+            "A marketplace",
+            "Mary's purity",
+            "A royal hunting ground"
+          ],
+          "right": 2,
+          "why": "Enclosed gardens are a traditional Marian symbol.",
+          "id": "ANN-SYM-GARDEN"
+        }
+      ],
+      "aspect": 2.27761,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "botticelli-cestello",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Sandro Botticelli",
+      "date": "1489–1490",
+      "year": 1489,
+      "period": "Early Renaissance",
+      "museum": "Uffizi Galleries, Florence",
+      "medium": "Tempera on wood",
+      "image": "../media/sacred-art/botticelli-cestello.jpg",
+      "page": "paintings/botticelli-cestello.html",
+      "available": true,
+      "source_url": "https://www.uffizi.it/en/artworks/annunciation-d9604d56-89bb-414c-ba3c-fd71f4d28eec",
+      "visual": {
+        "setting": "A nearly bare room with a strong tiled floor, a doorway, and a landscape beyond.",
+        "mary": "Mary rises and turns, raising her hands in a gesture that seems both hesitant and welcoming.",
+        "gabriel": "Gabriel kneels with flowing robes and an arm stretched toward Mary.",
+        "symbols": "A walled garden is visible beyond; Latin quotations from Luke appear on the original frame.",
+        "light": "Bright colored figures stand out against restrained gray architecture."
+      },
+      "history": "Botticelli painted this work in 1489–1490 for a chapel in the church of Santa Maria Maddalena in Florence, once called Cestello. A Florentine moneychanger named Benedetto Guardi commissioned it. That is why it is commonly known as the Cestello Annunciation. The painting is large and was meant to be seen during prayer in a church.",
+      "history_paragraphs": [
+        "Botticelli painted this work in 1489–1490 for a chapel in the church of Santa Maria Maddalena in Florence, once called Cestello. A Florentine moneychanger named Benedetto Guardi commissioned it. That is why it is commonly known as the Cestello Annunciation. The painting is large and was meant to be seen during prayer in a church.",
+        "The room is surprisingly simple. Apart from a book and a few architectural details, there is little furniture to distract us. Instead, Botticelli uses the sweeping gestures of Gabriel and Mary to tell the story. Gabriel kneels and reaches toward Mary; she seems to move backward while also extending her hand. Their bodies and clothes create strong, almost theatrical lines.",
+        "At the end of the fifteenth century, religious preaching in Florence encouraged a simpler, more serious style. The Uffizi connects the painting's restrained setting with that atmosphere. The doorway reveals a walled garden, a traditional symbol of Mary's purity. The original frame also carries Latin quotations from Luke, showing that the artist combined the Bible's words with a vivid visual interpretation."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel's gesture",
+          "x": 30,
+          "y": 65,
+          "kind": "Movement",
+          "text": "Gabriel kneels and reaches out, while his robe billows. His movement is central to the composition."
+        },
+        {
+          "id": "mary",
+          "label": "Mary's gesture",
+          "x": 78,
+          "y": 50,
+          "kind": "Movement",
+          "text": "Mary turns with arms outstretched. Does her gesture seem surprised, welcoming, or both?"
+        },
+        {
+          "id": "garden",
+          "label": "Garden through the doorway",
+          "x": 45,
+          "y": 25,
+          "kind": "Symbol",
+          "text": "The distant enclosed garden is a traditional symbol of Mary's purity."
+        },
+        {
+          "id": "floor",
+          "label": "Perspective in the floor",
+          "x": 53,
+          "y": 90,
+          "kind": "Technique",
+          "text": "The red-and-white floor lines help show depth inside the room."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is this Annunciation commonly named after?",
+          "choices": [
+            "The Cestello church or convent",
+            "A painter called Cestello",
+            "A mountain in France",
+            "A Roman emperor"
+          ],
+          "right": 0,
+          "why": "It was created for a church connected to the convent of Cestello.",
+          "id": "AH-ARTWORK-PROVENANCE"
+        },
+        {
+          "q": "What is especially expressive in Botticelli's Cestello painting?",
+          "choices": [
+            "A crowd of soldiers",
+            "Mary and Gabriel's large gestures",
+            "A stormy seascape",
+            "A battle with a dragon"
+          ],
+          "right": 1,
+          "why": "The figures' dramatic gestures are a main feature.",
+          "id": "AH-STYLE-RENAISSANCE"
+        },
+        {
+          "q": "Where are Bible verses written on the original painting?",
+          "choices": [
+            "On the angel's wings",
+            "In the clouds",
+            "On the original frame",
+            "On a carpet"
+          ],
+          "right": 2,
+          "why": "The original frame bears Latin passages from Luke 1:35 and 1:38.",
+          "id": "ANN-SOURCE-WORDS"
+        }
+      ],
+      "aspect": 1.03567,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "botticelli-met",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Sandro Botticelli",
+      "date": "c. 1490",
+      "year": 1490,
+      "period": "Early Renaissance",
+      "museum": "Metropolitan Museum of Art, New York",
+      "medium": "Tempera and gold on wood",
+      "image": "../media/sacred-art/botticelli-met.jpg",
+      "page": "paintings/botticelli-met.html",
+      "available": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/459016",
+      "visual": {
+        "setting": "A deep Renaissance interior divided by columns, opening into Mary's bedroom.",
+        "mary": "Mary kneels on the right, partly hidden by a curtain and bedroom furnishings.",
+        "gabriel": "Gabriel approaches from the left with outstretched wings, just beginning to kneel.",
+        "symbols": "Light travels toward Mary across the columns; the architectural perspective joins the two sides of the picture.",
+        "light": "Rays of light cross the dark architectural space."
+      },
+      "history": "This Annunciation is much smaller than Botticelli's San Martino fresco: the painted panel is only about 19 by 31 centimeters. The Metropolitan Museum of Art dates it to around 1490. It was probably intended for private prayer rather than display above a large church altar. The small size did not stop Botticelli from painting a surprisingly complicated scene.",
+      "history_paragraphs": [
+        "This Annunciation is much smaller than Botticelli's San Martino fresco: the painted panel is only about 19 by 31 centimeters. The Metropolitan Museum of Art dates it to around 1490. It was probably intended for private prayer rather than display above a large church altar. The small size did not stop Botticelli from painting a surprisingly complicated scene.",
+        "Look carefully at the row of stone columns. They divide Gabriel's open space from Mary's quieter bedroom, where a curtain has been drawn aside. Botticelli used single-point perspective: many architectural lines lead toward one distant point, making a flat wooden panel look like a deep building. The floor, walls, and arches all contribute to this illusion.",
+        "The painting is both carefully planned and full of movement. Gabriel seems to have just flown in and begun to kneel, while Mary bows in response. Light crosses the scene, connecting the two figures despite the columns between them. The painting also reveals something about Renaissance life: religious pictures were not only made for churches but could also be kept in private homes."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel's arrival",
+          "x": 28,
+          "y": 55,
+          "kind": "Movement",
+          "text": "Gabriel enters at the left, just beginning to kneel in Mary's direction."
+        },
+        {
+          "id": "mary",
+          "label": "Mary's bedroom",
+          "x": 85,
+          "y": 62,
+          "kind": "Setting",
+          "text": "Mary kneels behind a curtain, in a private room with a bed and furnishings."
+        },
+        {
+          "id": "columns",
+          "label": "One-point perspective",
+          "x": 56,
+          "y": 47,
+          "kind": "Technique",
+          "text": "The repeated columns help create the illusion of a deep building on a small, flat panel."
+        },
+        {
+          "id": "rays",
+          "label": "Rays of light",
+          "x": 59,
+          "y": 30,
+          "kind": "Symbol",
+          "text": "Light travels toward Mary, visually linking the two halves of the composition."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What was this small painting probably made for?",
+          "choices": [
+            "A ceiling several stories high",
+            "Private devotion or prayer",
+            "A theater backdrop",
+            "A public street sign"
+          ],
+          "right": 1,
+          "why": "The Metropolitan Museum explains that the small panel was probably a private devotional image.",
+          "id": "AH-ARTWORK-PURPOSE"
+        },
+        {
+          "q": "What creates the illusion of a deep room?",
+          "choices": [
+            "Perspective in the columns and floor",
+            "A gold background only",
+            "Large written labels",
+            "A moving image"
+          ],
+          "right": 0,
+          "why": "Architectural lines converge in single-point perspective.",
+          "id": "AH-TECH-PERSPECTIVE"
+        },
+        {
+          "q": "Where is Mary?",
+          "choices": [
+            "On a ship",
+            "In a forest",
+            "Inside a bedroom behind a curtain",
+            "At a palace gate"
+          ],
+          "right": 2,
+          "why": "Botticelli places Mary kneeling in a private room.",
+          "id": "AH-SETTING-DOMESTIC"
+        }
+      ],
+      "aspect": 1.61082,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "botticelli-san-marco",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Sandro Botticelli",
+      "date": "c. 1490",
+      "year": 1490,
+      "period": "Early Renaissance",
+      "museum": "Uffizi Galleries, Florence",
+      "medium": "Tempera on wood (predella detail)",
+      "image": "../media/sacred-art/botticelli-san-marco.jpg",
+      "page": "paintings/botticelli-san-marco.html",
+      "available": true,
+      "source_url": "https://www.wga.hu/html_m/b/botticel/8smarco/23predel.html",
+      "visual": {
+        "setting": "A very narrow, almost empty chamber, with a central opening onto a distant landscape.",
+        "mary": "Mary sits to the right with a book, her head bowed.",
+        "gabriel": "Gabriel kneels on the left, with blue and yellow robes, raising his hand in blessing.",
+        "symbols": "A white dove overhead and a small flower in Gabriel's hand.",
+        "light": "A simple background and open central doorway focus attention on the meeting."
+      },
+      "history": "This little Annunciation was not originally a large painting on its own. It was part of the predella—the row of small pictures along the bottom of an altarpiece—made for the church of San Marco in Florence. The larger altarpiece showed the Coronation of the Virgin, while the smaller scenes below helped tell connected religious stories. Botticelli and his workshop created the altarpiece around the beginning of the 1490s.",
+      "history_paragraphs": [
+        "This little Annunciation was not originally a large painting on its own. It was part of the predella—the row of small pictures along the bottom of an altarpiece—made for the church of San Marco in Florence. The larger altarpiece showed the Coronation of the Virgin, while the smaller scenes below helped tell connected religious stories. Botticelli and his workshop created the altarpiece around the beginning of the 1490s.",
+        "Because a predella scene is long and narrow, Botticelli had to tell the story in very little space. Gabriel kneels at the left, Mary sits at the right, and a doorway opens toward a landscape in the middle. Their poses and a few familiar symbols are enough for viewers to recognize the Annunciation. A book shows Mary interrupted during her reading, even though Luke does not say she was reading.",
+        "Compare this scene with Botticelli's much larger Cestello Annunciation. Both show the same meeting, but the narrow predella feels quieter and more compact. The gold and carefully drawn clothing recall older religious art, while the central opening suggests Renaissance interest in showing depth. The size and original position of a painting often affect how an artist tells a story."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel",
+          "x": 22,
+          "y": 55,
+          "kind": "Gesture",
+          "text": "Gabriel kneels in blue and yellow robes, raising his hand in greeting."
+        },
+        {
+          "id": "mary",
+          "label": "Mary and her book",
+          "x": 82,
+          "y": 52,
+          "kind": "Symbol",
+          "text": "Mary bows toward the angel while holding a book, an artistic detail absent from Luke's account."
+        },
+        {
+          "id": "door",
+          "label": "Landscape opening",
+          "x": 52,
+          "y": 40,
+          "kind": "Perspective",
+          "text": "The opening between the figures leads the viewer's eye into a tiny distant landscape."
+        },
+        {
+          "id": "dove",
+          "label": "White dove",
+          "x": 29,
+          "y": 12,
+          "kind": "Symbol",
+          "text": "The dove represents the Holy Spirit in Christian art."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is a predella?",
+          "choices": [
+            "A row of smaller scenes beneath an altarpiece",
+            "A kind of church bell",
+            "A painter's hat",
+            "A type of paintbrush"
+          ],
+          "right": 0,
+          "why": "A predella is the lower section of an altarpiece, often containing small narrative pictures.",
+          "id": "AH-TERMS-PREDELLA"
+        },
+        {
+          "q": "Why is this painting particularly long and narrow?",
+          "choices": [
+            "It was made for a ceiling",
+            "It was a small scene below a larger altarpiece",
+            "It is a modern movie poster",
+            "It was designed for a book cover"
+          ],
+          "right": 1,
+          "why": "The scene formed part of a predella.",
+          "id": "AH-ARTWORK-PURPOSE"
+        },
+        {
+          "q": "What common Annunciation symbol appears above the angel?",
+          "choices": [
+            "A boat",
+            "A crown",
+            "A white dove",
+            "A dragon"
+          ],
+          "right": 2,
+          "why": "The dove refers to the Holy Spirit.",
+          "id": "ANN-SYM-DOVE"
+        }
+      ],
+      "aspect": 2.712,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "botticelli-glasgow",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Sandro Botticelli (possibly with workshop assistance)",
+      "date": "c. 1490–1495",
+      "year": 1493,
+      "period": "Early Renaissance",
+      "museum": "Glasgow Museums, Kelvingrove Art Gallery and Museum",
+      "medium": "Oil, tempera, and gold leaf on walnut wood",
+      "image": "../media/sacred-art/botticelli-glasgow.jpg",
+      "page": "paintings/botticelli-glasgow.html",
+      "available": true,
+      "source_url": "https://collections.glasgowmuseums.com/mwebcgi/mweb?request=record%3Bid%3D166843%3Btype%3D101",
+      "visual": {
+        "setting": "A large vaulted Renaissance interior and long colonnade leading toward a lake and distant hills.",
+        "mary": "Mary stands on the right in blue, bowing and placing a hand across her chest.",
+        "gabriel": "Gabriel kneels at the left, entering the columned space.",
+        "symbols": "Golden rays cross the scene toward Mary; flowers and the open countryside add meaning.",
+        "light": "A strong contrast between shadowy vaults and golden rays makes the message feel dramatic."
+      },
+      "history": "Botticelli painted this Annunciation around 1490–1495, perhaps with help from members of his workshop. It once hung in the Church of St. Barnabas in Florence and is now in Glasgow's museums. Workshops were normal in the Renaissance: skilled artists often worked with assistants, and historians sometimes need to decide which parts of a picture were painted by the master himself.",
+      "history_paragraphs": [
+        "Botticelli painted this Annunciation around 1490–1495, perhaps with help from members of his workshop. It once hung in the Church of St. Barnabas in Florence and is now in Glasgow's museums. Workshops were normal in the Renaissance: skilled artists often worked with assistants, and historians sometimes need to decide which parts of a picture were painted by the master himself.",
+        "This painting is a wonderful example of perspective. A row of huge stone arches stretches into the distance on the left, leading our eyes toward a lake and trees. The rooms appear deep and solid even though the picture is flat. Gabriel enters from the left while Mary stands in a more private room on the right. The columns separate them, but a beam of golden light seems to connect the two figures.",
+        "Look at how Botticelli uses light and architecture differently from his earlier Annunciations. The gray stone makes the golden rays more striking, while the tiny landscape feels far away. Although the figures are small compared with the building, their gestures still tell the story. This is an excellent painting for investigating how artists organize space and direct our attention."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel",
+          "x": 23,
+          "y": 78,
+          "kind": "Movement",
+          "text": "Gabriel kneels inside the long colonnade, with his hand raised toward Mary."
+        },
+        {
+          "id": "mary",
+          "label": "Mary",
+          "x": 86,
+          "y": 71,
+          "kind": "Gesture",
+          "text": "Mary stands in her room and responds to the angel with a quiet gesture."
+        },
+        {
+          "id": "arches",
+          "label": "Receding arches",
+          "x": 42,
+          "y": 22,
+          "kind": "Perspective",
+          "text": "Repeated columns and arches make the flat picture appear deep and three-dimensional."
+        },
+        {
+          "id": "light",
+          "label": "Golden rays",
+          "x": 29,
+          "y": 47,
+          "kind": "Symbol",
+          "text": "Bright golden rays cross the architectural space, connecting Gabriel's message with Mary."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What makes the long colonnade look three-dimensional?",
+          "choices": [
+            "Linear perspective",
+            "A spinning animation",
+            "A thick gold frame",
+            "A mirror attached to the picture"
+          ],
+          "right": 0,
+          "why": "Botticelli uses converging architectural lines to create depth.",
+          "id": "AH-TECH-PERSPECTIVE"
+        },
+        {
+          "q": "Where is this painting now?",
+          "choices": [
+            "Madrid",
+            "Glasgow",
+            "Washington, DC",
+            "Siena"
+          ],
+          "right": 1,
+          "why": "It belongs to Glasgow Museums.",
+          "id": "AH-ARTWORK-LOCATION"
+        },
+        {
+          "q": "Who may have helped Botticelli paint this work?",
+          "choices": [
+            "Roman emperors",
+            "Only printers",
+            "Members of his workshop",
+            "Modern photographers"
+          ],
+          "right": 2,
+          "why": "Glasgow Museums notes possible assistance from Botticelli's workshop.",
+          "id": "AH-ARTIST-WORKSHOP"
+        }
+      ],
+      "aspect": 1.21673,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "rubens",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Peter Paul Rubens",
+      "date": "c. 1628",
+      "year": 1628,
+      "period": "Baroque",
+      "museum": "City of Antwerp / Rubenshuis collection (on loan in Ghent)",
+      "medium": "Oil on canvas",
+      "image": "../media/sacred-art/rubens.jpg",
+      "page": "paintings/rubens.html",
+      "available": true,
+      "source_url": "https://www.rubenshuis.be/en/peter-paul-rubens-de-annunciatie",
+      "visual": {
+        "setting": "A lively domestic room filled with strong colors and swirling figures.",
+        "mary": "Mary appears in bright blue, responding to Gabriel's arrival.",
+        "gabriel": "Gabriel arrives dramatically, supported by light and heavenly figures.",
+        "symbols": "A shaft of light and accompanying cherubs highlight the heavenly message; domestic objects include sewing materials.",
+        "light": "Bright blue clothing contrasts with deep shadows and rich warm colors."
+      },
+      "history": "Peter Paul Rubens was one of the most famous Baroque painters. He worked in Antwerp, in what is now Belgium, and traveled to Italy, where he studied the great artists of the Renaissance. His paintings are known for their movement, strong colors, and lively figures. Rubens began this Annunciation earlier in his career but completed it around 1628.",
+      "history_paragraphs": [
+        "Peter Paul Rubens was one of the most famous Baroque painters. He worked in Antwerp, in what is now Belgium, and traveled to Italy, where he studied the great artists of the Renaissance. His paintings are known for their movement, strong colors, and lively figures. Rubens began this Annunciation earlier in his career but completed it around 1628.",
+        "Rubens makes the visit feel full of energy. The angel arrives surrounded by light and heavenly figures, while Mary stands out in a striking blue cloak. Rubens used expensive ultramarine blue, made from the stone lapis lazuli, for her garment. He also uses strong contrasts between bright and dark areas to draw our attention.",
+        "Despite its heavenly visitors, the setting is surprisingly ordinary: Mary is in a home, and the painting includes domestic objects such as sewing materials. In a larger view, a sleeping cat can even be spotted. This mixture of everyday life and sacred drama makes the event seem close to the viewer. Compare Rubens's energetic style with the calm, measured compositions of Fra Angelico or Poussin."
+      ],
+      "hotspots": [
+        {
+          "id": "mary",
+          "label": "Mary's blue cloak",
+          "x": 26,
+          "y": 63,
+          "kind": "Color",
+          "text": "Rubens used costly ultramarine pigment, made from lapis lazuli, to paint the striking blue of Mary's clothing."
+        },
+        {
+          "id": "gabriel",
+          "label": "Gabriel's arrival",
+          "x": 79,
+          "y": 59,
+          "kind": "Movement",
+          "text": "Gabriel's dramatic movement is characteristic of Baroque storytelling."
+        },
+        {
+          "id": "cherubs",
+          "label": "Heavenly figures",
+          "x": 55,
+          "y": 18,
+          "kind": "Symbol",
+          "text": "Heavenly figures and divine light emphasize that the angel carries God's message."
+        },
+        {
+          "id": "contrast",
+          "label": "Light and shadows",
+          "x": 47,
+          "y": 46,
+          "kind": "Technique",
+          "text": "Rubens uses strong contrasts of light and dark to heighten the drama."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Which period is Rubens especially associated with?",
+          "choices": [
+            "The Baroque",
+            "Ancient Egyptian art",
+            "Impressionism",
+            "Cubism"
+          ],
+          "right": 0,
+          "why": "Rubens is an important Baroque artist, known for movement, dramatic light, and vivid color.",
+          "id": "AH-PERIOD-BAROQUE"
+        },
+        {
+          "q": "Which precious material was used to make the blue pigment in Mary's cloak?",
+          "choices": [
+            "Crushed marble",
+            "Lapis lazuli",
+            "Sandstone",
+            "Charcoal"
+          ],
+          "right": 1,
+          "why": "Rubens used ultramarine from lapis lazuli for the blue cloak.",
+          "id": "AH-MATERIAL-ULTRAMARINE"
+        },
+        {
+          "q": "How does Rubens combine the sacred and the ordinary?",
+          "choices": [
+            "He removes all furniture",
+            "He places Mary in a battlefield",
+            "He includes everyday home objects beside heavenly visitors",
+            "He paints the figures as statues"
+          ],
+          "right": 2,
+          "why": "Mary's domestic setting includes ordinary objects while Gabriel arrives dramatically.",
+          "id": "AH-SETTING-DOMESTIC"
+        }
+      ],
+      "aspect": 0.89641,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "poussin",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Nicolas Poussin",
+      "date": "1657",
+      "year": 1657,
+      "period": "Classical Baroque",
+      "museum": "The National Gallery, London",
+      "medium": "Oil on canvas",
+      "image": "../media/sacred-art/poussin.jpg",
+      "page": "paintings/poussin.html",
+      "available": true,
+      "source_url": "https://www.nationalgallery.org.uk/paintings/nicolas-poussin-the-annunciation",
+      "visual": {
+        "setting": "A restrained stone architectural setting with little furniture.",
+        "mary": "Mary sits cross-legged with arms extended, wearing an unusual yellow cloak.",
+        "gabriel": "Gabriel stands or leans toward Mary at the right, pointing as he gives the message.",
+        "symbols": "The Holy Spirit appears as a dove in a halo of light above Mary.",
+        "light": "The figures are arranged with strong, sculptural clarity rather than swirling movement."
+      },
+      "history": "Nicolas Poussin was a French painter who spent much of his working life in Rome. In 1657, late in his career, he painted this Annunciation. He loved the art of ancient Greece and Rome, and his figures often resemble carefully arranged classical statues. Although he lived in the Baroque period, his style is generally more controlled and orderly than Rubens's.",
+      "history_paragraphs": [
+        "Nicolas Poussin was a French painter who spent much of his working life in Rome. In 1657, late in his career, he painted this Annunciation. He loved the art of ancient Greece and Rome, and his figures often resemble carefully arranged classical statues. Although he lived in the Baroque period, his style is generally more controlled and orderly than Rubens's.",
+        "Poussin makes some unusual choices. Mary sits cross-legged rather than kneeling, and her cloak is yellow rather than the more familiar blue. She closes her eyes and stretches out her arms, accepting the angel's message. Above her, a white dove shines inside a circle of light. The fairly plain background places attention on the figures and their gestures.",
+        "A painted wooden plaque in the scene contains Poussin's signature, the date 1657, and the name of Pope Alexander VII. Scholars do not know for certain who commissioned it. The National Gallery suggests that it may have been intended for a memorial. This gives us a chance to think about why artists work differently: their tastes, religious ideas, and the people who pay for paintings can all shape the result."
+      ],
+      "hotspots": [
+        {
+          "id": "mary",
+          "label": "Mary's yellow cloak",
+          "x": 25,
+          "y": 65,
+          "kind": "Color and gesture",
+          "text": "Poussin depicts Mary cross-legged in an unusual yellow cloak, with her arms open."
+        },
+        {
+          "id": "gabriel",
+          "label": "Gabriel's gesture",
+          "x": 71,
+          "y": 55,
+          "kind": "Gesture",
+          "text": "Gabriel points as he delivers the message, in a carefully arranged composition."
+        },
+        {
+          "id": "dove",
+          "label": "Dove and light",
+          "x": 23,
+          "y": 16,
+          "kind": "Symbol",
+          "text": "The white dove, surrounded by light, represents the Holy Spirit."
+        },
+        {
+          "id": "stone",
+          "label": "Classical setting",
+          "x": 51,
+          "y": 86,
+          "kind": "Art history",
+          "text": "The stone architecture and sculptural poses show Poussin's interest in classical art."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What unusual color does Mary wear in Poussin's Annunciation?",
+          "choices": [
+            "Yellow",
+            "Black",
+            "Purple",
+            "Orange"
+          ],
+          "right": 0,
+          "why": "Poussin paints Mary in a yellow cloak, rather than the traditional blue.",
+          "id": "ANN-MARY-ATTRIBUTES"
+        },
+        {
+          "q": "Which bird represents the Holy Spirit?",
+          "choices": [
+            "An eagle",
+            "A white dove",
+            "A raven",
+            "An owl"
+          ],
+          "right": 1,
+          "why": "A white dove shines above Mary in the picture.",
+          "id": "ANN-SYM-DOVE"
+        },
+        {
+          "q": "What kind of older art inspired Poussin?",
+          "choices": [
+            "Modern photography",
+            "Comic strips",
+            "Ancient Greek and Roman art",
+            "Industrial design"
+          ],
+          "right": 2,
+          "why": "Poussin admired ancient classical art and used carefully ordered compositions.",
+          "id": "AH-STYLE-CLASSICISM"
+        }
+      ],
+      "aspect": 1.33333,
+      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
     }
   ]
 }

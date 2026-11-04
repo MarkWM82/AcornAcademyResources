@@ -132,8 +132,56 @@
 					"title": "Biblical Stories",
 					"children": [
 						{
-							"title": "The Annunciation — Leonardo da Vinci",
+							"title": "The Annunciation — Gallery (11 artworks)",
+							"url": "sacred-art/gallery.html"
+						},
+						{
+							"title": "Compare Two Annunciations",
+							"url": "sacred-art/compare.html?subject=annunciation"
+						},
+						{
+							"title": "Simone Martini and Lippo Memmi — The Annunciation",
+							"url": "sacred-art/paintings/simone-martini.html"
+						},
+						{
+							"title": "Fra Angelico — The Annunciation",
+							"url": "sacred-art/paintings/fra-angelico.html"
+						},
+						{
+							"title": "Jan van Eyck — The Annunciation",
+							"url": "sacred-art/paintings/van-eyck.html"
+						},
+						{
+							"title": "Leonardo da Vinci — The Annunciation",
 							"url": "sacred-art/annunciation.html"
+						},
+						{
+							"title": "Sandro Botticelli — The Annunciation",
+							"url": "sacred-art/paintings/botticelli-san-martino.html"
+						},
+						{
+							"title": "Sandro Botticelli — The Annunciation",
+							"url": "sacred-art/paintings/botticelli-cestello.html"
+						},
+						{
+							"title": "Sandro Botticelli — The Annunciation",
+							"url": "sacred-art/paintings/botticelli-met.html"
+						},
+						{
+							"title": "Sandro Botticelli — The Annunciation",
+							"url": "sacred-art/paintings/botticelli-san-marco.html"
+						},
+						{
+							"title": "Sandro Botticelli (possibly with workshop assistance) — The Annunciation",
+							"url": "sacred-art/paintings/botticelli-glasgow.html"
+						},
+						{
+							"title": "Peter Paul Rubens — The Annunciation",
+							"url": "sacred-art/paintings/rubens.html"
+						},
+						{
+							"title": "Nicolas Poussin — The Annunciation",
+							"url": "sacred-art/paintings/poussin.html"
 						}
 					]
 				}

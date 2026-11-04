@@ -26,7 +26,7 @@ select{width:100%;font:inherit;min-width:0;padding:11px;border:1px solid #9caf9f
 </head>
 <body>
 <header><h1>Go Side by Side</h1><p>Acorn Academy · Sacred Art</p>
-<nav><a href="../index.html">Home</a><a href="annunciation.html" id="backLink">Back to the Annunciation</a></nav>
+<nav><a href="../index.html">Home</a><a href="annunciation.html" id="backLink">Leonardo’s lesson</a><a href="gallery.html">All Annunciations</a></nav>
 </header>
 <main>
 <section class="card"><h2 id="subjectTitle">Compare Two Paintings</h2><p id="subjectIntro">Choose two paintings to compare their settings, people, symbols, and art history.</p>
@@ -66,7 +66,7 @@ function viewer(container,painting){const name=node('h3',painting.artist);contai
  view.addEventListener('pointerdown',e=>{drag={id:e.pointerId,startX:e.clientX,startY:e.clientY,x,y};view.setPointerCapture(e.pointerId);view.classList.add('dragging')});
  view.addEventListener('pointermove',e=>{if(!drag||drag.id!==e.pointerId)return;x=drag.x+e.clientX-drag.startX;y=drag.y+e.clientY-drag.startY;draw()});
  function end(){drag=null;view.classList.remove('dragging')}view.addEventListener('pointerup',end);view.addEventListener('pointercancel',end);
- const link=node('a','Museum description');link.href=painting.source_url;link.target='_blank';link.rel='noopener noreferrer';container.append(node('p'));container.lastChild.append(link);
+ const link=node('a','Museum description');link.href=painting.source_url;link.target='_blank';link.rel='noopener noreferrer';const details=node('p');details.append(link);const more=node('a','Explore this painting');more.href=new URL(painting.page||'annunciation.html',location.href).href;more.style.marginLeft='14px';details.append(more);container.append(details);
  draw();
 }
 function showComparison(){const [a,b]=selected();if(!(a&&b)||a.id===b.id)return;

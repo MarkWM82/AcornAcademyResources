@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Annunciation Gallery — Acorn Academy</title>
+<link rel="stylesheet" href="artwork.css">
+<style>
+.hero{background:#fff;border:1px solid #d6ddce;border-radius:15px;padding:20px;margin:15px 0}
+.filters{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:700px}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0}
+.gallery-card{background:#fff;border:1px solid #dbe2d5;border-radius:13px;overflow:hidden;box-shadow:0 1px 4px #0001}
+.gallery-card .image{height:235px;background:#e9ece5;display:flex;align-items:center;justify-content:center}
+.gallery-card img{width:100%;height:100%;object-fit:contain}
+.gallery-card .body{padding:15px}.gallery-card h3{margin:4px 0 6px}
+.gallery-card .body p{margin:7px 0}
+.card-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:12px}
+.card-actions .button-link{font-size:.92rem;padding:8px 12px}
+.no-results{padding:20px;background:#fff;border-radius:10px}
+@media(max-width:850px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:570px){.gallery-grid,.filters{grid-template-columns:1fr}.gallery-card .image{height:250px}}
+</style>
+</head>
+<body>
+<header><h1>The Annunciation Through the Centuries</h1>
+<p>Acorn Academy · Saints, Stories &amp; Symbols</p>
+<nav><a href="../index.html">Home</a><a href="annunciation.html">Leonardo's Lesson</a><a href="compare.html?subject=annunciation">Go Side by Side</a><a href="../sitemap.html">Site Map</a></nav>
+</header>
+<main>
+<section class="hero">
+<p class="eyebrow">One story, many artists</p><h2>How many ways can an artist tell the same story?</h2>
+<p class="lede">These artists painted the moment when Gabriel visited Mary, but they worked in different countries, centuries, styles, and materials. Open any painting to explore its details, read a little art history, and try some Art Detective questions.</p>
+<p id="count" class="muted" aria-live="polite">Loading the collection…</p>
+<div class="filters">
+<div><label for="artistFilter">Show artists</label><select id="artistFilter"><option value="all">All artists</option></select></div>
+<div><label for="centuryFilter">Show dates</label><select id="centuryFilter"><option value="all">All centuries</option><option value="1300">1300s</option><option value="1400">1400s</option><option value="1600">1600s</option></select></div>
+</div>
+</section>
+<div id="paintings" class="gallery-grid" aria-live="polite"></div>
+<section class="card"><h2>Compare Your Favorites</h2>
+<p>Choose any two depictions and examine them side by side. The comparison shows their different settings, gestures, symbols, materials, and historical background.</p>
+<a class="button-link" href="compare.html?subject=annunciation">Go Side by Side</a>
+</section>
+<footer>Historical details are drawn from collection and museum records linked on the individual painting pages. Images were supplied for the family's educational project; this site does not grant anyone else permission to reproduce them.</footer>
+</main>
+<script>
+"use strict";
+const host=document.getElementById('paintings'),count=document.getElementById('count'),artist=document.getElementById('artistFilter'),century=document.getElementById('centuryFilter');
+let artworks=[];
+const E=(t,cls,txt)=>{let e=document.createElement(t);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e};
+const paintingUrl=p=>new URL(p.page||'annunciation.html',location.href).href;
+const imageUrl=p=>new URL(p.image,location.href).href;
+function render(){
+ const filtered=artworks.filter(p=>(artist.value==='all'||p.artist.includes(artist.value))&&(century.value==='all'||Math.floor(p.year/100)*100===Number(century.value)));
+ count.textContent=filtered.length+" of "+artworks.length+" paintings shown · From 1333 to 1657";
+ host.replaceChildren();
+ if(!filtered.length){host.append(E('p','no-results','No paintings match this selection. Try another filter.'));return}
+ for(const p of filtered){
+  const card=E('article','gallery-card'),frame=E('div','image'),img=E('img');img.src=imageUrl(p);img.alt=p.artist+"'s "+p.title;img.loading='lazy';frame.append(img);card.append(frame);
+  const body=E('div','body');body.append(E('span','eyebrow',p.date),E('h3','',p.artist),E('div','pill',p.period));
+  body.append(E('p','tiny muted',p.museum),E('p','tiny',p.visual.setting));
+  const actions=E('div','card-actions'),go=E('a','button-link','Explore painting');go.href=paintingUrl(p);
+  actions.append(go);body.append(actions);card.append(body);host.append(card);
+ }
+}
+async function load(){
+ try{const r=await fetch('../data/sacred-art-paintings.json',{cache:'no-store'});if(!r.ok)throw Error('Could not load the collection');
+ const data=await r.json();artworks=data.paintings.filter(p=>p.subject==='annunciation'&&p.available&&p.image).sort((a,b)=>a.year-b.year);
+ const names=[...new Set(artworks.map(p=>p.artist.includes('Botticelli')?'Sandro Botticelli':p.artist.includes('Leonardo')?'Leonardo da Vinci':p.artist.includes('Fra Angelico')?'Fra Angelico':p.artist.includes('Jan van Eyck')?'Jan van Eyck':p.artist.includes('Rubens')?'Peter Paul Rubens':p.artist.includes('Poussin')?'Nicolas Poussin':'Simone Martini'))].sort();
+ for(const name of names)artist.add(new Option(name,name));
+ artist.onchange=render;century.onchange=render;render();
+ }catch(e){count.textContent='We could not load the gallery right now.';host.append(E('p','no-results','Please refresh the page to try again.'));}
+}
+load();
+</script>
+</body></html>
