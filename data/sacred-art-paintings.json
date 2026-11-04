@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "subjects": [
+    {
+      "id": "annunciation",
+      "title": "The Annunciation",
+      "intro": "Gabriel visits Mary and announces that she will have a son named Jesus (Luke 1:26–38). Artists tell the same story using different settings, gestures, and symbols."
+    }
+  ],
+  "paintings": [
+    {
+      "id": "leonardo-annunciation",
+      "subject": "annunciation",
+      "title": "The Annunciation",
+      "artist": "Leonardo da Vinci",
+      "date": "c. 1472",
+      "period": "Early Renaissance",
+      "museum": "Uffizi Galleries, Florence",
+      "medium": "Oil on wood",
+      "image": "../media/sacred-art/annunciation.jpg",
+      "available": true,
+      "source_url": "https://www.uffizi.it/en/artworks/annunciation",
+      "visual": {
+        "setting": "An enclosed garden beside a Renaissance building, with a far-off landscape.",
+        "mary": "Mary sits at a lectern with a book, turning toward Gabriel.",
+        "gabriel": "Gabriel kneels on the grass and raises his hand in greeting.",
+        "symbols": "Gabriel carries white lilies; the enclosed garden is associated with Mary's purity.",
+        "light": "Soft light and distant mountains help make the scene feel like a real place."
+      },
+      "history": "Painted when Leonardo was about twenty and working in Verrocchio's workshop. His careful study of nature and experiments with perspective are already visible."
+    }
+  ]
+}
