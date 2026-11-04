@@ -128,14 +128,14 @@
         "setting": "An open portico with rounded arches beside a garden.",
         "mary": "Mary sits quietly with her hands crossed before her chest.",
         "gabriel": "Gabriel bows respectfully in front of Mary under the arches.",
-        "symbols": "Adam and Eve are being expelled from Eden on the left, linking two Bible stories.",
+        "symbols": "The complete altarpiece also includes Adam and Eve leaving Eden, beyond the left edge of this cropped photograph.",
         "light": "Gentle colors and balanced architecture create a calm, contemplative atmosphere."
       },
       "history": "Fra Angelico was both a painter and a Dominican friar, a member of a religious community. He painted this Annunciation in 1425–1426 for a monastery in Fiesole, near Florence. He believed painting could help people reflect on their faith. His work combines the detailed elegance of older medieval art with new Renaissance attempts to show believable buildings and spaces.",
       "history_paragraphs": [
         "Fra Angelico was both a painter and a Dominican friar, a member of a religious community. He painted this Annunciation in 1425–1426 for a monastery in Fiesole, near Florence. He believed painting could help people reflect on their faith. His work combines the detailed elegance of older medieval art with new Renaissance attempts to show believable buildings and spaces.",
         "Look at the arches, columns, and carefully arranged garden. Fra Angelico uses architecture to give the scene depth, although the perspective is not completely accurate by later Renaissance standards. Gabriel and Mary are balanced on opposite sides of the picture, creating a peaceful meeting. Their gestures are gentler than in Simone Martini's more dramatic Annunciation.",
-        "There is a surprising second story on the left: Adam and Eve are being sent out of the Garden of Eden. The artist placed the two events together deliberately. In Christian teaching, the Annunciation begins the story of salvation after humanity's fall. The smaller scenes along the bottom of the original altarpiece, called the predella, also told episodes from Mary's life."
+        "There is a surprising second story in the complete altarpiece, although this photograph shows only its central Annunciation scene. At the far left of the full painting, Adam and Eve are being sent out of the Garden of Eden. In Christian teaching, the Annunciation begins the story of salvation after humanity's fall. You can find Adam and Eve by following the museum link below and viewing the complete painting, including the smaller scenes called a predella along its bottom."
       ],
       "hotspots": [
         {
@@ -156,11 +156,11 @@
         },
         {
           "id": "eden",
-          "label": "Adam and Eve",
+          "label": "Garden and Eden",
           "x": 13,
           "y": 55,
           "kind": "Two Bible stories",
-          "text": "On the far left, Adam and Eve leave Eden. Fra Angelico connects the beginning of sin with the Christian story of salvation."
+          "text": "This cropped photograph shows part of the garden. In the complete altarpiece, Adam and Eve leave Eden farther to the left. Follow the Prado Museum link below to find them."
         },
         {
           "id": "arches",
@@ -173,7 +173,7 @@
       ],
       "questions": [
         {
-          "q": "Which other Bible story appears in Fra Angelico's Annunciation?",
+          "q": "Which other biblical story can you find in the full altarpiece on the Prado Museum website (outside this cropped photograph)?",
           "choices": [
             "David and Goliath",
             "Adam and Eve leaving Eden",
@@ -181,7 +181,7 @@
             "Moses and the burning bush"
           ],
           "right": 1,
-          "why": "Adam and Eve are shown at the left of the picture.",
+          "why": "The full altarpiece includes Adam and Eve leaving Eden, but that section is outside the photograph shown here.",
           "id": "ANN-OLD-NEW-TESTAMENT"
         },
         {
