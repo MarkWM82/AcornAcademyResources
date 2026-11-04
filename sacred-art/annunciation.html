@@ -5,7 +5,19 @@
 <title>Explore the Annunciation — Acorn Academy</title>
 <style>
 :root{font-family:system-ui,Segoe UI,Arial,sans-serif;color:#243629;background:#f4f1e8}*{box-sizing:border-box}body{margin:0}header{background:#213a2d;color:#fff;padding:18px max(20px,calc((100vw - 1120px)/2))}header p{margin:5px 0 0;color:#dce8dd}.wrap{max-width:1120px;margin:auto;padding:18px}.card{background:#fff;border:1px solid #d6ddce;border-radius:14px;padding:20px;margin:15px 0;box-shadow:0 1px 3px #0001}h1{font-size:clamp(26px,4vw,39px);margin:0}h2{font-size:23px;margin:0 0 10px}h3{margin:0 0 8px}p{line-height:1.6}button{background:#28634b;color:white;border:0;border-radius:9px;padding:10px 14px;margin:3px;cursor:pointer;font:inherit}button:hover,button:focus{background:#174331}button.secondary{background:#edf3eb;color:#24432c;border:1px solid #bacfbb}button:focus-visible,a:focus-visible{outline:3px solid #ffbc4f}a{color:#245e48}nav a{color:#e5f5e5;margin-right:18px}.muted{color:#5a6c60}.tiny{font-size:.87rem}.viewer{position:relative;width:100%;aspect-ratio:4057/1840;background:#17271c;overflow:hidden;touch-action:none;cursor:grab;border-radius:10px;user-select:none}.viewer.dragging{cursor:grabbing}.scene{position:absolute;inset:0;transform-origin:0 0}.scene img{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none}.hotspot{position:absolute;width:28px;height:28px;margin:-14px 0 0 -14px;border:2px solid white;border-radius:50%;background:#bc6b27;color:white;box-shadow:0 2px 8px #0009;transform:translate(-50%,-50%);font-weight:bold;padding:0}.hotspot:hover,.hotspot:focus{background:#8b4209;scale:1.18}.controls{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin:12px 0}.details{display:grid;grid-template-columns:1fr 1fr;gap:16px}.detail-list{display:flex;flex-wrap:wrap;gap:5px;align-content:start}.detail-panel{min-height:175px;padding:15px;background:#f5f8f2;border-radius:10px;border:1px solid #dbe7d7}.tag{display:inline-block;font-size:.78rem;background:#e4eee1;color:#255438;padding:4px 9px;border-radius:30px}.answer{display:block;width:100%;text-align:left;background:#f0f4eb;color:#203e2a;border:1px solid #c6d5c2}.answer.correct{background:#d3f0d8;border-color:#448e51}.answer.incorrect{background:#f9e6dd;border-color:#a75d46}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.chip{padding:10px;border-radius:9px;background:#f4f6f0}.label{font-weight:bold}.footer{font-size:.9rem;color:#576b5b}.feedback{padding:12px;background:#eef3ec;border-radius:8px;min-height:46px}@media(max-width:730px){.details,.grid{grid-template-columns:1fr}.card{padding:14px}.hotspot{width:25px;height:25px}header{padding:18px}}
-.passage{margin:16px 0;border:1px solid #cddcc9;border-radius:10px;background:#f9fbf6}.passage summary{font-weight:700;padding:13px 16px;cursor:pointer;background:#eaf1e5;border-radius:10px}.bible-text{padding:8px 20px 15px;max-width:75ch}.verse{margin:8px 0;line-height:1.65}.verse sup{font-weight:bold;color:#33664c;margin-right:6px;font-size:.8em}</style>
+.passage{margin:16px 0;border:1px solid #cddcc9;border-radius:10px;background:#f9fbf6}.passage summary{font-weight:700;padding:13px 16px;cursor:pointer;background:#eaf1e5;border-radius:10px}.bible-text{padding:8px 20px 15px;max-width:75ch}.verse{margin:8px 0;line-height:1.65}.verse sup{font-weight:bold;color:#33664c;margin-right:6px;font-size:.8em}
+.retelling{margin:16px 0;padding:17px 19px;background:#f5f9f0;border:1px solid #cbdac6;border-left:5px solid #508466;border-radius:10px}
+.retelling .bible-text{padding:0;max-width:80ch}.retelling p{line-height:1.7;margin:11px 0}
+.verse-range{display:inline-block;font-size:.8rem;font-weight:700;color:#2c684c;margin-right:8px}
+.translation-list{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:12px 0}
+.translation-item{background:#f7f8f4;border:1px solid #e0e4dc;border-radius:10px;padding:13px}
+.translation-item p{margin:6px 0 0;font-size:.94rem}.history p{max-width:82ch}
+.compare-selectors{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.compare-selectors label{display:block;font-weight:bold;margin-bottom:6px}
+.compare-selectors select{width:100%;font:inherit;min-width:0;padding:10px;border:1px solid #9caf9f;border-radius:8px;background:white;color:#203e2a}
+button:disabled{background:#becdc4;color:#344a3c;cursor:not-allowed}
+@media(max-width:730px){.translation-list,.compare-selectors{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
 <header><h1>Explore the Annunciation</h1><p>Acorn Academy · Saints, Stories &amp; Symbols</p><nav><a href="../index.html">Home</a> <a href="../sitemap.html">Site Map</a></nav></header>
@@ -24,10 +36,21 @@
 <div class="controls"><button id="zoomIn" type="button">+ Zoom in</button><button id="zoomOut" type="button">− Zoom out</button><button id="reset" class="secondary" type="button">Reset view</button><span class="muted tiny" id="zoomReadout" aria-live="polite">100%</span><span class="muted tiny">Mouse wheel or trackpad to zoom; drag to move; click numbers to explore</span></div>
 <div class="details"><div><h3>Choose a detail</h3><div class="detail-list" id="detailList"></div></div><section class="detail-panel" id="detailPanel" aria-live="polite"><h3>Start exploring</h3><p>Select a marker in the painting or one of the detail buttons.</p></section></div>
 </section>
-<section class="card" id="story"><h2>What is happening?</h2>
+<section class="card" id="story"><h2>The Story in the Bible</h2>
 <p>According to the Gospel of Luke (1:26–38), God sends the angel Gabriel to Mary in Nazareth. Gabriel tells her she will have a son named Jesus. Mary is initially troubled by the greeting and asks how this can happen. Gabriel explains that the Holy Spirit will come upon her. Mary accepts the message.</p>
 <p>Christians call this moment the <strong>Annunciation</strong>, meaning an announcement. It is an especially common subject in Italian religious art.</p>
-<details class="passage" open><summary>Read the complete Bible passage — Luke 1:26–38</summary><div class="bible-text">
+<div class="retelling" aria-label="Child-friendly retelling of Luke 1 verses 26 to 38">
+<h3>The Angel Gabriel Visits Mary</h3>
+<p class="tiny muted"><strong>Luke 1:26–38 — Retold in simpler language.</strong> This is our own retelling, not a word-for-word Bible translation. Verse ranges help you find the same parts in a Bible.</p>
+<div class="bible-text">
+<p><span class="verse-range">Verses 26–27</span>Elizabeth had been expecting a baby for nearly six months. God sent an angel named Gabriel to the town of Nazareth, in a region called Galilee. Gabriel went to visit a young woman named Mary. Mary was a virgin, and she was engaged to marry a man named Joseph. Joseph was descended from King David.</p>
+<p><span class="verse-range">Verses 28–29</span>Gabriel came to Mary and said, “God has shown you special kindness. God is with you!” Mary was surprised and troubled by this strange greeting. She wondered what Gabriel meant.</p>
+<p><span class="verse-range">Verses 30–33</span>“Don't be afraid, Mary,” Gabriel said. “God is pleased with you. You are going to have a baby boy, and you will name him Jesus. He will be great, and people will call him the Son of the Most High God. God will make him a king, just as his ancestor David was a king. He will rule over the people of Israel forever, and his kingdom will never end.”</p>
+<p><span class="verse-range">Verses 34–35</span>Mary asked, “How can I have a baby? I'm a virgin.” Gabriel answered, “The Holy Spirit will come to you, and God's power will be with you. That is why the baby will be holy and will be called the Son of God.”</p>
+<p><span class="verse-range">Verses 36–37</span>“Your relative Elizabeth is also going to have a baby, even though she is old and people thought she couldn't have children. She has already been expecting her baby for six months. Nothing is impossible for God.”</p>
+<p><span class="verse-range">Verse 38</span>Mary answered, “I am God's servant. Let everything happen just as you have told me.” Then Gabriel left her.</p>
+</div></div>
+<details class="passage"><summary>Read the complete Bible translation — Luke 1:26–38 (World English Bible)</summary><div class="bible-text">
 <p class="verse"><sup>26</sup> Now in the sixth month, the angel Gabriel was sent from God to a city of Galilee named Nazareth,</p>
 <p class="verse"><sup>27</sup> to a virgin pledged to be married to a man whose name was Joseph, of David’s house. The virgin’s name was Mary.</p>
 <p class="verse"><sup>28</sup> Having come in, the angel said to her, “Rejoice, you highly favored one! The Lord is with you. Blessed are you among women!”</p>
@@ -43,8 +66,34 @@
 <p class="verse"><sup>38</sup> Mary said, “Behold, the servant of the Lord; let it be done to me according to your word.” Then the angel departed from her.</p>
 <p class="tiny muted">World English Bible (WEB), public-domain translation. <a href="https://www.biblegateway.com/passage/?search=Luke%201%3A26-38&amp;version=WEB" target="_blank" rel="noopener noreferrer">Read this translation online</a>.</p>
 </div></details>
-
+<div class="translation-links" id="translations"><h3>Try another Bible translation</h3>
+<p>Different translations can help you understand the same story. These links open other websites.</p>
+<div class="translation-list">
+<div class="translation-item"><strong><a href="https://www.easyenglish.bible/bible/easy/luke/1/#26" target="_blank" rel="noopener noreferrer">EasyEnglish Bible — easiest to read</a></strong><p>Short sentences and simple words. Helpful if you want an especially easy translation of the Bible itself. Created by MissionAssist.</p></div>
+<div class="translation-item"><strong><a href="https://www.biblesociety.org.uk/explore-the-bible/read/eng/GNB/Luke/1" target="_blank" rel="noopener noreferrer">Good News Bible — clear and friendly</a></strong><p>Another accessible translation, approved for Catholic study. Start at verse 26.</p></div>
+<div class="translation-item"><strong><a href="https://www.esv.org/verses/Luke%201%3A26-38/" target="_blank" rel="noopener noreferrer">English Standard Version — more formal</a></strong><p>Closer to the wording you may hear at Catholic Mass in England and Wales. Mass uses the ESV Catholic Edition (ESV-CE). This link is to the standard ESV, not the Catholic Edition.</p></div>
+<div class="translation-item"><strong><a href="https://bible.usccb.org/bible/luke/1" target="_blank" rel="noopener noreferrer">US Catholic bishops' Bible — with notes</a></strong><p>A Catholic-approved Bible text with explanations. This translation is different from the ESV-CE used at Mass in England and Wales.</p></div>
+</div>
+<p class="tiny muted">Thanks to MissionAssist for supporting this family's noncommercial learning project. We link to their EasyEnglish text rather than copying it onto this publicly accessible page.</p>
+</div>
 <div class="grid"><div class="chip"><span class="label">From the Bible</span><p>Gabriel's visit, the greeting, Mary's question, and her response are described in Luke.</p></div><div class="chip"><span class="label">From artistic tradition</span><p>Gabriel's wings, the lily, Mary's book, and the carefully arranged garden are visual conventions that help communicate the story; Luke does not describe these details.</p></div></div>
+</section>
+<section class="card history" id="history">
+<h2>A Little Art History: Leonardo's Annunciation</h2>
+<p>Leonardo da Vinci painted <em>The Annunciation</em> around 1472, when he was only about twenty years old. At the time, he was learning and working in Florence in the workshop of another famous artist, Andrea del Verrocchio. This is one of Leonardo's earliest known paintings. Nobody knows for certain who first asked him to paint it. It came to the Uffizi Gallery in 1867 from a church in Florence.</p>
+<p>Leonardo was fascinated by nature, and you can already see this in his painting. Look at the plants and flowers in the garden, the folds in Gabriel's clothing, and the angel's enormous wings. The wings appear to be based on those of a real bird of prey. Leonardo also painted a distant landscape, with mountains that seem to fade into the mist. Unlike some earlier religious paintings, which used golden backgrounds, Leonardo placed this biblical story in a natural-looking world.</p>
+<p>There is something curious about this painting. Look carefully at Mary's right arm: it seems unusually long. Was this a mistake? Some art historians think Leonardo expected people to look at the painting from below and to the right, perhaps when it was displayed above a church altar. That might help explain the unusual proportions, although nobody knows for certain. Leonardo was experimenting with <strong>perspective</strong>, the technique artists use to make a flat painting appear three-dimensional. Can you find other places where he used perspective?</p>
+<p class="tiny muted">Learn more: <a href="https://www.uffizi.it/en/artworks/annunciation" target="_blank" rel="noopener noreferrer">Uffizi Galleries — The Annunciation</a>.</p>
+</section>
+<section class="card" id="comparison">
+<h2>Compare Two Paintings</h2>
+<p>Choose two artists' versions of the Annunciation. Then select <strong>Go Side by Side</strong> to explore the similarities, differences, symbols, and art history on a separate page.</p>
+<div class="compare-selectors">
+<div><label for="paintingA">First painting</label><select id="paintingA"><option value="">Loading paintings…</option></select></div>
+<div><label for="paintingB">Second painting</label><select id="paintingB"><option value="">Loading paintings…</option></select></div>
+</div>
+<div class="controls"><button id="compareGo" type="button" disabled>Go Side by Side</button><span id="compareStatus" class="muted tiny" aria-live="polite">Preparing painting choices…</span></div>
+<p class="tiny muted">More paintings will appear here once their images are ready for Acorn Academy. The <a href="compare.html?subject=annunciation">comparison page</a> is ready for them.</p>
 </section>
 <section class="card" id="quiz"><h2>Try an Art Detective question</h2><p class="muted">These are examples of fact-based questions we could eventually include in Acorn Academy. They are not connected to the game's rewards or progress yet.</p>
 <div id="questionText" class="label"></div><div id="choices"></div><div id="feedback" class="feedback" aria-live="polite">Choose an answer to see the explanation.</div><div class="controls"><button id="nextQuestion" type="button">Next question</button></div></section>
@@ -52,7 +101,7 @@
 <section class="card"><h2>Explore further</h2>
 <p><a href="https://www.uffizi.it/en/artworks/annunciation" target="_blank" rel="noopener">Uffizi Galleries — Leonardo's Annunciation</a></p>
 <p><a href="https://www.biblegateway.com/passage/?search=Luke%201%3A26-38" target="_blank" rel="noopener">Read Luke 1:26–38 (choose a Bible translation)</a></p>
-<p class="muted">Next, we can add other artists' Annunciation paintings and let you compare how they tell the same story.</p></section>
+</section>
 <p class="footer">Prototype created for personal educational use. Artwork: Leonardo da Vinci, <i>Annunciation</i>, Uffizi Galleries. Painting photograph supplied by the family.</p>
 </main>
 <script>
@@ -88,4 +137,26 @@ const list=document.getElementById('detailList');for(const [id,d] of Object.entr
 document.querySelectorAll('[data-id]').forEach(b=>b.addEventListener('click',()=>selectDetail(b.dataset.id)));
 let qi=0;function drawQuestion(){const q=qs[qi];document.getElementById('questionText').textContent=q.q;const root=document.getElementById('choices');root.innerHTML='';document.getElementById('feedback').textContent='Choose an answer to see the explanation.';q.choices.forEach((c,i)=>{const b=document.createElement('button');b.className='answer';b.textContent=String.fromCharCode(65+i)+'. '+c;b.onclick=()=>{root.querySelectorAll('button').forEach((item,j)=>{item.disabled=true;if(j===q.right)item.classList.add('correct');else if(j===i)item.classList.add('incorrect')});document.getElementById('feedback').textContent=(i===q.right?'Correct! ':'Not quite. ')+q.why+' · Concept: '+q.id};root.append(b)})}
 document.getElementById('nextQuestion').onclick=()=>{qi=(qi+1)%qs.length;drawQuestion()};drawQuestion();render();
+
+async function setupComparisonPicker(){
+ const a=document.getElementById('paintingA'),b=document.getElementById('paintingB'),go=document.getElementById('compareGo'),status=document.getElementById('compareStatus');
+ try{
+  const response=await fetch('../data/sacred-art-paintings.json',{cache:'no-store'});
+  if(!response.ok)throw Error('List unavailable');
+  const catalog=await response.json(),items=catalog.paintings.filter(p=>p.subject==='annunciation'&&p.available&&p.image);
+  a.replaceChildren();b.replaceChildren();
+  if(items.length<2){
+   a.add(new Option(items.length?items[0].artist+' — '+items[0].title:'No paintings ready',items[0]?.id||''));
+   b.add(new Option('More paintings coming soon',''));a.disabled=true;b.disabled=true;go.disabled=true;
+   status.textContent='Leonardo is ready. Comparison unlocks when a second painting image is added.';return;
+  }
+  for(const select of [a,b])for(const item of items)select.add(new Option(item.artist+' — '+item.title,item.id));
+  b.selectedIndex=1;
+  function validate(){const ready=a.value&&b.value&&a.value!==b.value;go.disabled=!ready;status.textContent=ready?'Ready to compare!':'Choose two different paintings.'}
+  a.addEventListener('change',validate);b.addEventListener('change',validate);
+  go.addEventListener('click',()=>{if(!go.disabled)location.href='compare.html?subject=annunciation&a='+encodeURIComponent(a.value)+'&b='+encodeURIComponent(b.value)});
+  validate();
+ }catch(e){a.replaceChildren(new Option('List unavailable',''));b.replaceChildren(new Option('List unavailable',''));status.textContent='Please refresh the page to try again.'}
+}
+setupComparisonPicker();
 </script></body></html>
