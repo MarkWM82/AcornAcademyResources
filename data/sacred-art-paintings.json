@@ -111,106 +111,126 @@
       "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
     },
     {
-      "id": "fra-angelico",
+      "id": "fra-angelico-prado",
       "subject": "annunciation",
-      "title": "The Annunciation",
+      "title": "The Annunciation (Prado altarpiece)",
       "artist": "Fra Angelico",
       "date": "1425–1426",
       "year": 1425,
       "period": "Early Renaissance",
       "museum": "Museo Nacional del Prado, Madrid",
-      "medium": "Tempera on poplar wood",
-      "image": "../media/sacred-art/fra-angelico.jpg",
-      "page": "paintings/fra-angelico.html",
+      "medium": "Tempera and gold on poplar panel",
+      "image": "../media/sacred-art/fra-angelico-prado.jpg",
+      "aspect": 1.1873840445269017,
+      "page": "paintings/fra-angelico-prado.html",
       "available": true,
       "source_url": "https://www.museodelprado.es/en/the-collection/art-work/the-annunciation/9b02b6c9-3618-4a92-a6b7-26f9076fcb67",
+      "image_credit": "Image supplied for the family's educational project; consult the Prado for rights to reuse.",
       "visual": {
-        "setting": "An open portico with rounded arches beside a garden.",
-        "mary": "Mary sits quietly with her hands crossed before her chest.",
-        "gabriel": "Gabriel bows respectfully in front of Mary under the arches.",
-        "symbols": "The complete altarpiece also includes Adam and Eve leaving Eden, beyond the left edge of this cropped photograph.",
-        "light": "Gentle colors and balanced architecture create a calm, contemplative atmosphere."
+        "setting": "A richly colored loggia with blue vaulted ceilings and a garden full of fruit trees.",
+        "mary": "Mary sits on the right with a book resting open on her lap, folding her arms across her chest.",
+        "gabriel": "Gabriel bows to Mary beneath the arches, with wide, patterned golden wings.",
+        "symbols": "Adam and Eve are led out of Eden on the far left. God's hand sends a ray of light toward Mary, with a dove symbolizing the Holy Spirit.",
+        "light": "Gold light and vivid blue ceilings link the stories of humanity's fall and Christ's coming."
       },
-      "history": "Fra Angelico was both a painter and a Dominican friar, a member of a religious community. He painted this Annunciation in 1425–1426 for a monastery in Fiesole, near Florence. He believed painting could help people reflect on their faith. His work combines the detailed elegance of older medieval art with new Renaissance attempts to show believable buildings and spaces.",
       "history_paragraphs": [
-        "Fra Angelico was both a painter and a Dominican friar, a member of a religious community. He painted this Annunciation in 1425–1426 for a monastery in Fiesole, near Florence. He believed painting could help people reflect on their faith. His work combines the detailed elegance of older medieval art with new Renaissance attempts to show believable buildings and spaces.",
-        "Look at the arches, columns, and carefully arranged garden. Fra Angelico uses architecture to give the scene depth, although the perspective is not completely accurate by later Renaissance standards. Gabriel and Mary are balanced on opposite sides of the picture, creating a peaceful meeting. Their gestures are gentler than in Simone Martini's more dramatic Annunciation.",
-        "There is a surprising second story in the complete altarpiece, although this photograph shows only its central Annunciation scene. At the far left of the full painting, Adam and Eve are being sent out of the Garden of Eden. In Christian teaching, the Annunciation begins the story of salvation after humanity's fall. You can find Adam and Eve by following the museum link below and viewing the complete painting, including the smaller scenes called a predella along its bottom."
+        "Fra Angelico painted this altarpiece in 1425–1426 for the Dominican monastery of San Domenico in Fiesole, near Florence. An altarpiece is made to stand behind or near an altar in a church. This one is now in Madrid's Prado Museum. It was painted in tempera—a kind of paint mixed with egg—on a wooden panel. This is the earlier of the two Fra Angelico Annunciations in our collection; the other is a fresco at the convent of San Marco.",
+        "Fra Angelico tells two Bible stories in one picture. On the left, an angel sends Adam and Eve out of the Garden of Eden after they disobey God. On the right, Gabriel announces to Mary that she will become the mother of Jesus. Christians traditionally see the first event as humanity's fall into sin and the second as the beginning of the promise of salvation through Jesus. The two scenes are connected by the garden and the long beam of golden light.",
+        "Look closely at the starry blue ceiling, the delicate flowers, and Mary's open book. The rounded arches make the scene appear deeper, showing Fra Angelico's interest in new Renaissance techniques. Originally there was also a row of small pictures beneath the main panel, called a predella, showing episodes from Mary's life. Our photograph shows the central panel, not that separate predella. Compare this altarpiece with the later San Marco fresco: the same artist used a quieter and simpler approach when painting for the friars' corridor."
       ],
       "hotspots": [
         {
+          "id": "eden",
+          "label": "Adam and Eve leave Eden",
+          "x": 12,
+          "y": 43,
+          "kind": "Old Testament",
+          "text": "An angel leads Adam and Eve away from Eden. This belongs to Genesis, not Luke's account of the Annunciation."
+        },
+        {
           "id": "gabriel",
-          "label": "Gabriel beneath arches",
-          "x": 37,
-          "y": 55,
-          "kind": "Composition",
-          "text": "The angel and Mary face one another beneath the building's arches. The balanced arrangement makes the scene feel quiet."
+          "label": "Gabriel's announcement",
+          "x": 42,
+          "y": 64,
+          "kind": "New Testament",
+          "text": "Gabriel bows as he tells Mary that she will have a son named Jesus (Luke 1:26–38)."
         },
         {
           "id": "mary",
-          "label": "Mary",
-          "x": 73,
-          "y": 57,
+          "label": "Mary's response",
+          "x": 80,
+          "y": 65,
           "kind": "Gesture",
-          "text": "Mary sits calmly with her hands crossed, a different reaction from Simone Martini's startled Mary."
+          "text": "Mary folds her arms and bows her head. Her open book is an artistic detail, not specified in Luke."
         },
         {
-          "id": "eden",
-          "label": "Garden and Eden",
-          "x": 13,
-          "y": 55,
-          "kind": "Two Bible stories",
-          "text": "This cropped photograph shows part of the garden. In the complete altarpiece, Adam and Eve leave Eden farther to the left. Follow the Prado Museum link below to find them."
+          "id": "rays",
+          "label": "Golden ray and dove",
+          "x": 59,
+          "y": 36,
+          "kind": "Symbol",
+          "text": "A ray of light from God's hand crosses the scene; a dove within the light symbolizes the Holy Spirit."
         },
         {
-          "id": "arches",
-          "label": "Renaissance arches",
-          "x": 52,
-          "y": 21,
+          "id": "blue",
+          "label": "Blue vaulted arches",
+          "x": 68,
+          "y": 20,
           "kind": "Art history",
-          "text": "Rounded arches and receding spaces show how Renaissance painters used architecture to create depth."
+          "text": "The starry blue vaults and rounded arches bring together rich medieval decoration and Renaissance experiments with space."
         }
       ],
       "questions": [
         {
-          "q": "Which other biblical story can you find in the full altarpiece on the Prado Museum website (outside this cropped photograph)?",
+          "q": "Which two Bible stories does this altarpiece show together?",
           "choices": [
-            "David and Goliath",
-            "Adam and Eve leaving Eden",
-            "Noah's ark",
-            "Moses and the burning bush"
+            "The Flood and the Nativity",
+            "The Last Supper and the Resurrection",
+            "Adam and Eve leaving Eden and the Annunciation",
+            "David and Goliath and the Baptism"
           ],
-          "right": 1,
-          "why": "The full altarpiece includes Adam and Eve leaving Eden, but that section is outside the photograph shown here.",
+          "right": 2,
+          "why": "The expulsion from Eden appears on the left; Gabriel's visit to Mary appears on the right.",
           "id": "ANN-OLD-NEW-TESTAMENT"
         },
         {
-          "q": "What was Fra Angelico as well as a painter?",
+          "q": "Why are the two scenes placed in the same painting?",
           "choices": [
-            "A king",
-            "A sailor",
-            "A Dominican friar",
-            "A doctor"
-          ],
-          "right": 2,
-          "why": "Fra Angelico was a Dominican friar whose art was closely connected with religious devotion.",
-          "id": "AH-ARTIST-FRA-ANGELICO"
-        },
-        {
-          "q": "What do the arches help the painter show?",
-          "choices": [
-            "Three-dimensional space",
-            "A storm",
-            "A mountain range",
-            "The passing of seasons"
+            "To connect the Fall with the Christian promise of salvation",
+            "Because they took place on the same day",
+            "Because Adam was Gabriel's brother",
+            "To show a map of Florence"
           ],
           "right": 0,
-          "why": "Architectural perspective gives the flat painting the appearance of depth.",
-          "id": "AH-TECH-PERSPECTIVE"
+          "why": "Fra Angelico contrasts humanity's fall with the Annunciation that Christians see as beginning the story of salvation.",
+          "id": "ANN-THEME-SALVATION"
+        },
+        {
+          "q": "What does the dove in the golden light represent?",
+          "choices": [
+            "A lost bird from the garden",
+            "The Holy Spirit",
+            "The artist's family crest",
+            "The season of winter"
+          ],
+          "right": 1,
+          "why": "The dove symbolizes the Holy Spirit, mentioned in Luke 1:35.",
+          "id": "ANN-SYM-DOVE"
+        },
+        {
+          "q": "What kind of painting is this?",
+          "choices": [
+            "A modern photograph",
+            "A fresco in the convent's corridor",
+            "A wooden altarpiece painted in tempera",
+            "A stained-glass window"
+          ],
+          "right": 2,
+          "why": "Fra Angelico made it as a tempera altarpiece for San Domenico in Fiesole.",
+          "id": "AH-TECH-TEMPERA"
         }
       ],
-      "aspect": 1.41667,
-      "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+      "history": "Fra Angelico painted this altarpiece in 1425–1426 for the Dominican monastery of San Domenico in Fiesole, near Florence."
     },
     {
       "id": "van-eyck",
@@ -313,6 +333,108 @@
       ],
       "aspect": 0.37909,
       "image_credit": "Image supplied for this family's educational project. Contact the rights holder before reusing."
+    },
+    {
+      "id": "fra-angelico",
+      "subject": "annunciation",
+      "title": "The Annunciation (San Marco fresco)",
+      "artist": "Fra Angelico",
+      "date": "c. 1440–1443",
+      "year": 1441,
+      "period": "Early Renaissance",
+      "museum": "Museo di San Marco, Florence",
+      "medium": "Fresco on plaster",
+      "image": "../media/sacred-art/fra-angelico.jpg",
+      "page": "paintings/fra-angelico.html",
+      "available": true,
+      "source_url": "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900297878",
+      "visual": {
+        "setting": "A quiet Renaissance portico with rounded arches, open to an enclosed garden and cypress trees.",
+        "mary": "Mary sits on a simple stool, crossing her arms and bowing gently toward Gabriel.",
+        "gabriel": "Gabriel bows to Mary inside the same portico, his multicolored wings sweeping backward.",
+        "symbols": "The enclosed garden and its wooden fence recall traditional Marian symbolism. Adam and Eve are not included in this fresco.",
+        "light": "Softly illuminated walls and gentle colors create a calm setting for prayer."
+      },
+      "history": "Fra Angelico was both a painter and a Dominican friar. He made this Annunciation as a fresco—a painting applied to wet plaster—for the convent of San Marco in Florence around 1440–1443. This is the large painting in the upper-floor corridor, near the stairway. The friars passed it on their way to their rooms. It is a different artwork from Fra Angelico's earlier Annunciation altarpiece, which is now in the Prado Museum in Madrid.",
+      "history_paragraphs": [
+        "Fra Angelico was both a painter and a Dominican friar. He made this Annunciation as a fresco—a painting applied to wet plaster—for the convent of San Marco in Florence around 1440–1443. This is the large painting in the upper-floor corridor, near the stairway. The friars passed it on their way to their rooms. It is a different artwork from Fra Angelico's earlier Annunciation altarpiece, which is now in the Prado Museum in Madrid.",
+        "Look at the quiet portico and its rounded arches. Behind Gabriel, a fenced garden stretches toward trees and tall cypresses. Fra Angelico uses the columns to create a feeling of depth, but the simple building also helps keep our attention on the two figures. Gabriel bows respectfully, while Mary sits with her arms crossed and her head gently lowered. The whole scene feels peaceful and reflective.",
+        "The enclosed garden is a traditional symbol associated with Mary's purity. The image was made for religious contemplation, not just decoration. Below the original fresco, painted Latin verses invited passing friars to greet Mary in prayer; those words may not be visible in every photograph. Unlike the earlier Prado altarpiece, this San Marco fresco does not show Adam and Eve being expelled from Eden. Comparing these two paintings by the same artist reveals how a different setting and purpose can change the story's presentation."
+      ],
+      "hotspots": [
+        {
+          "id": "gabriel",
+          "label": "Gabriel's bow",
+          "x": 38,
+          "y": 57,
+          "kind": "Gesture",
+          "text": "Gabriel bends respectfully toward Mary. The colorful wings and flowing robe make him easy to recognize."
+        },
+        {
+          "id": "mary",
+          "label": "Mary on her stool",
+          "x": 73,
+          "y": 60,
+          "kind": "Gesture",
+          "text": "Mary bows slightly with her arms crossed. Her simple posture suits the fresco's peaceful mood."
+        },
+        {
+          "id": "garden",
+          "label": "Enclosed garden",
+          "x": 14,
+          "y": 63,
+          "kind": "Symbol",
+          "text": "The fence around the garden is a traditional sign of Mary's purity. It is not the scene of Adam and Eve's expulsion."
+        },
+        {
+          "id": "arches",
+          "label": "Corridor and arches",
+          "x": 54,
+          "y": 23,
+          "kind": "Art history",
+          "text": "The arches and columns create an impression of depth. This fresco was painted for a corridor in the San Marco convent."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Where did Fra Angelico paint this particular Annunciation?",
+          "choices": [
+            "On a wall in the convent of San Marco",
+            "On a ship",
+            "On the ceiling of the Sistine Chapel",
+            "On the doors of a royal palace"
+          ],
+          "right": 0,
+          "why": "This is a fresco in the upper-floor corridor of the convent of San Marco in Florence.",
+          "id": "AH-ARTWORK-LOCATION"
+        },
+        {
+          "q": "What does the garden's enclosure traditionally symbolize?",
+          "choices": [
+            "A city prison",
+            "Mary's purity",
+            "A battlefield",
+            "The voyage to Egypt"
+          ],
+          "right": 1,
+          "why": "The enclosed garden is a traditional symbol associated with Mary.",
+          "id": "ANN-SYM-GARDEN"
+        },
+        {
+          "q": "Which scene is NOT included in this San Marco fresco?",
+          "choices": [
+            "Gabriel greeting Mary",
+            "Mary seated under arches",
+            "Adam and Eve leaving Eden",
+            "A garden behind Gabriel"
+          ],
+          "right": 2,
+          "why": "Adam and Eve are part of Fra Angelico's earlier Prado altarpiece, not this fresco.",
+          "id": "ANN-SOURCE-DISTINCTION"
+        }
+      ],
+      "aspect": 1.41667,
+      "image_credit": "Photograph supplied for this family's educational project. The original artwork is a fresco in San Marco, Florence."
     },
     {
       "id": "leonardo-annunciation",

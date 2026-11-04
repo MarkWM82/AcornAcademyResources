@@ -132,7 +132,7 @@
 					"title": "Biblical Stories",
 					"children": [
 						{
-							"title": "The Annunciation — Gallery (11 artworks)",
+							"title": "The Annunciation — Gallery (12 artworks)",
 							"url": "sacred-art/gallery.html"
 						},
 						{
@@ -144,12 +144,16 @@
 							"url": "sacred-art/paintings/simone-martini.html"
 						},
 						{
-							"title": "Fra Angelico — The Annunciation",
-							"url": "sacred-art/paintings/fra-angelico.html"
+							"title": "Fra Angelico — The Annunciation (Prado altarpiece)",
+							"url": "sacred-art/paintings/fra-angelico-prado.html"
 						},
 						{
 							"title": "Jan van Eyck — The Annunciation",
 							"url": "sacred-art/paintings/van-eyck.html"
+						},
+						{
+							"title": "Fra Angelico — The Annunciation (San Marco fresco)",
+							"url": "sacred-art/paintings/fra-angelico.html"
 						},
 						{
 							"title": "Leonardo da Vinci — The Annunciation",
