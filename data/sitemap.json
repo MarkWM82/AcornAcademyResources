@@ -188,6 +188,27 @@
 							"url": "sacred-art/paintings/poussin.html"
 						}
 					]
+				},
+				{
+					"title": "Nativity Cycle",
+					"children": [
+						{
+							"title": "The Birth of Jesus",
+							"url": "sacred-art/nativity.html"
+						},
+						{
+							"title": "The Shepherds Hear the Good News",
+							"url": "sacred-art/shepherds.html"
+						},
+						{
+							"title": "The Magi Visit Jesus",
+							"url": "sacred-art/magi.html"
+						},
+						{
+							"title": "Identifying Saints in Nativity Art",
+							"url": "sacred-art/nativity-saints.html"
+						}
+					]
 				}
 			]
 		}

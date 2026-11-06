@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "rights_note": "Text-only public catalog. User-supplied image files remain local until publication rights verified.",
+  "paintings": [
+    {
+      "id": "botticelli-mystic",
+      "title": "Mystic Nativity",
+      "artist": "Sandro Botticelli",
+      "date": "c. 1500",
+      "group": "birth",
+      "saints": [],
+      "learn": "Angels, olive branches, embraces and fleeing demons make the birth a picture of peace and the defeat of evil. The Magi and shepherds appear together.",
+      "history": [
+        "Botticelli painted the Mystic Nativity during a difficult period for Florence, when war and religious ideas shaped how people thought about the future.",
+        "The gold dome and dancing angels are not simply a realistic view of Bethlehem. They turn the birth into a vision of heaven celebrating with humanity.",
+        "The artist connects Jesus' birth with the hope described in Revelation. This is an interpretation of the wider Christian story, not a detail that Luke includes in his account."
+      ],
+      "source_url": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-mystic-nativity",
+      "public_image_approved": false
+    },
+    {
+      "id": "duccio-prophets",
+      "title": "Nativity with the Prophets Isaiah and Ezekiel",
+      "artist": "Duccio di Buoninsegna",
+      "date": "1308–1311",
+      "group": "birth",
+      "saints": [
+        "Isaiah",
+        "Ezekiel"
+      ],
+      "learn": "The two figures in the narrow side panels are the prophets Isaiah and Ezekiel. Their scrolls connect Jesus' birth with the Old Testament.",
+      "history": [
+        "Duccio made this panel for the great Maestà altarpiece in Siena Cathedral, where it formed part of a sequence of scenes from Jesus' childhood.",
+        "The gold background and reclining Mary reflect older Byzantine ways of picturing the Nativity, while the shelter and gestures bring the story close to everyday experience.",
+        "The prophets on either side lived long before Jesus. Christians read their writings as pointing forward to the birth; Duccio includes them in the picture to explain that connection."
+      ],
+      "source_url": "https://www.nga.gov/artworks/10-nativity-prophets-isaiah-and-ezekiel",
+      "public_image_approved": false
+    },
+    {
+      "id": "fra-angelico-nativity",
+      "title": "Nativity (San Marco, Cell 5)",
+      "artist": "Fra Angelico and workshop",
+      "date": "c. 1440–1441",
+      "group": "birth",
+      "saints": [
+        "Catherine of Alexandria",
+        "Peter Martyr"
+      ],
+      "learn": "Two saints who lived centuries after Jesus' birth join the scene in prayer. Catherine is associated with a crown and Peter Martyr with a head wound.",
+      "history": [
+        "This fresco was painted for Cell 5 of the Dominican convent of San Marco in Florence. Its setting was a place for a friar to pray and reflect.",
+        "Mary and Joseph kneel before the child, while angels appear overhead. The quiet arrangement encourages the viewer to contemplate the birth.",
+        "Saint Catherine of Alexandria and Saint Peter Martyr appear in this picture, even though Luke does not describe them as witnesses of Jesus' birth. Artists often included later saints in devotional scenes."
+      ],
+      "source_url": "https://www.wga.hu/html_m/a/angelico/09/cells/05_nativ.html",
+      "public_image_approved": false
+    },
+    {
+      "id": "giotto-nativity",
+      "title": "Nativity",
+      "artist": "Giotto and workshop",
+      "date": "early 14th century",
+      "group": "birth",
+      "saints": [],
+      "learn": "Mary, Jesus, Joseph, angels, a stable and the shepherds' announcement are shown together. The exact source image is still being verified.",
+      "history": [
+        "In early Italian painting, artists often arranged several moments from a Bible story inside one picture rather than showing them as separate frames.",
+        "The familiar shelter, Mary caring for the infant and the angels announce the essential features of the Nativity.",
+        "This reproduction is retained mainly for learning the story. Its exact museum object and attribution will be checked before adding more precise art-history claims."
+      ],
+      "source_url": "",
+      "public_image_approved": false
+    },
+    {
+      "id": "correggio-holy-night",
+      "title": "Adoration of the Shepherds (Holy Night)",
+      "artist": "Correggio",
+      "date": "c. 1528–1530",
+      "group": "shepherds",
+      "saints": [],
+      "learn": "Jesus seems to be the source of light, illuminating Mary and the shepherds. This represents the Christian idea of Christ as light.",
+      "history": [
+        "Correggio creates a nighttime scene where light does the storytelling. The infant Jesus appears brighter than the surrounding room.",
+        "The shepherds react to the child with amazement. Their ordinary clothing contrasts with the importance of the event.",
+        "The glow is a symbolic artistic choice, not a statement in Luke that the baby literally shone in the room."
+      ],
+      "source_url": "https://skd-online-collection.skd.museum/",
+      "public_image_approved": false
+    },
+    {
+      "id": "stom-raleigh",
+      "title": "Adoration of the Shepherds (Raleigh)",
+      "artist": "Matthias Stom",
+      "date": "c. 1635–1637",
+      "group": "shepherds",
+      "saints": [
+        "Anne"
+      ],
+      "learn": "The museum identifies an older woman beside Mary as Saint Anne, Mary's mother in Christian tradition. Luke does not list Anne among the shepherds.",
+      "history": [
+        "Matthias Stom, a Dutch painter working in Italy, made this painting in the seventeenth century. Like other artists influenced by Caravaggio, he used strong contrasts of light and shadow.",
+        "The faces of the visitors are lit by the infant Jesus, who draws everyone's gaze toward the center.",
+        "Alongside Mary, Joseph and the shepherds, the North Carolina Museum of Art identifies Mary's mother, Saint Anne. She is a figure of later Christian tradition, not named as a visitor in Luke."
+      ],
+      "source_url": "https://collection.ncartmuseum.org/objects/426/the-adoration-of-the-shepherds",
+      "public_image_approved": false
+    },
+    {
+      "id": "portinari-triptych",
+      "title": "Portinari Triptych",
+      "artist": "Hugo van der Goes",
+      "date": "c. 1473–1478",
+      "group": "shepherds",
+      "saints": [
+        "Thomas the Apostle",
+        "Anthony the Abbot",
+        "Margaret of Antioch",
+        "Mary Magdalene"
+      ],
+      "learn": "Four patron saints accompany the donor family. Look for Thomas' spear, Anthony's bell, Margaret's dragon and Mary Magdalene's ointment jar.",
+      "history": [
+        "The Portinari Triptych was painted in Flanders for a Florentine banking family and eventually arrived in Florence, where its naturalism impressed other artists.",
+        "The large center panel shows the shepherds approaching Jesus. The smaller side panels are different: members of the Portinari family kneel with their patron saints.",
+        "Saint Thomas holds a spear; Saint Anthony the Abbot has a bell; Saint Margaret appears with a dragon; and Mary Magdalene carries ointment. These attributes tell us who the saints are even without their names written beside them."
+      ],
+      "source_url": "https://www.uffizi.it/en/online-exhibitions/portinari-triptych",
+      "public_image_approved": false
+    },
+    {
+      "id": "ghirlandaio-innocenti",
+      "title": "Adoration of the Magi (Ospedale degli Innocenti)",
+      "artist": "Domenico Ghirlandaio",
+      "date": "1488–1489",
+      "group": "magi",
+      "saints": [
+        "John the Baptist",
+        "John the Evangelist"
+      ],
+      "learn": "Two distinct saints named John join the Magi. The altarpiece was created for a Florentine institution devoted to caring for children.",
+      "history": [
+        "Ghirlandaio painted this large altarpiece for Florence's Hospital of the Innocents, an institution associated with the care of children.",
+        "The figures include visitors from the East, but also historical patrons and saints connected with the hospital. A painting could honor its commissioners while teaching a Bible story.",
+        "John the Baptist and John the Evangelist are two different people. Their presence is a devotional addition, not a claim that both appeared in Matthew's Magi account."
+      ],
+      "source_url": "https://www.museodeglinnocenti.it/en/museo/percorsi-espositivi/arte/",
+      "public_image_approved": false
+    },
+    {
+      "id": "fra-lippi-magi",
+      "title": "Adoration of the Magi",
+      "artist": "Fra Angelico and Fra Filippo Lippi",
+      "date": "c. 1440–1460",
+      "group": "magi",
+      "saints": [],
+      "learn": "A long procession leads to Mary and Jesus in a circular panel called a tondo. Look for kneeling visitors and gifts.",
+      "history": [
+        "This painting is a tondo, the Italian name for a circular work of art. Both Fra Angelico and Fra Filippo Lippi contributed to it.",
+        "Crowds of visitors and animals wind through the landscape toward the Holy Family, leading our eyes to the three Magi in the foreground.",
+        "Matthew describes the Magi and their gifts, but the elaborate procession and architectural ruins are artistic additions that help make the scene feel significant."
+      ],
+      "source_url": "https://www.nga.gov/artworks/41581-adoration-magi",
+      "public_image_approved": false
+    },
+    {
+      "id": "rubens-magi",
+      "title": "Adoration of the Magi",
+      "artist": "Peter Paul Rubens",
+      "date": "1624–1625",
+      "group": "magi",
+      "saints": [],
+      "learn": "Vivid color and movement make the visitors and their gifts prominent. Compare this with earlier Renaissance depictions.",
+      "history": [
+        "Rubens was a leading Baroque artist. His richly colored figures seem to move and react, creating a very different feeling from earlier, more orderly paintings.",
+        "The Magi's clothing and gifts draw attention to the visit of travelers who came from the East to honor Jesus.",
+        "Matthew mentions gold, frankincense and myrrh, but does not identify exactly three visitors or call them kings. Artists developed those traditions over centuries."
+      ],
+      "source_url": "https://kmska.be/en/masterpiece/the-adoration-of-the-magi-6",
+      "public_image_approved": false
+    },
+    {
+      "id": "fra-angelico-reliquary",
+      "title": "Annunciation and Adoration of the Magi",
+      "artist": "Fra Angelico",
+      "date": "early 1430s",
+      "group": "combined",
+      "saints": [],
+      "learn": "Two scenes are shown in a single object: Gabriel's visit to Mary and, later, the Magi honoring Jesus.",
+      "history": [
+        "This small devotional object brings together two moments from the story of Jesus' coming into the world.",
+        "The upper image shows the Annunciation. The lower image presents the visit of the Magi, connecting the promise about Jesus with visitors who recognize him after his birth.",
+        "It is one artwork, despite being represented by two photographs in the original source folder. The two stories should be identified separately."
+      ],
+      "source_url": "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0900188381-1",
+      "public_image_approved": false
+    }
+  ]
+}
