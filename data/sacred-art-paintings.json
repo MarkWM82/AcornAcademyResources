@@ -33,7 +33,7 @@
       "history_paragraphs": [
         "In 1333, the Sienese painters Simone Martini and Lippo Memmi created this large altarpiece for Siena Cathedral. Unlike a small picture for someone's home, an altarpiece could be seen by people gathering to pray in church. The artists signed and dated their work, so we know exactly when it was completed. Simone Martini is usually credited with most of the design.",
         "This painting belongs to a style now called International Gothic. The figures wear elegant clothing, the shapes are graceful, and the background shines with gold. Look at Gabriel's patterned cloak and Mary's richly decorated throne. The artists were less concerned with creating an ordinary-looking room than with expressing the importance of a sacred event.",
-        "Gabriel's greeting is painted across the gold background in Latin: 'Ave gratia plena dominus tecum' ('Hail, full of grace, the Lord is with you'). Mary pulls back, startled by the angel's sudden arrival. A white dove, associated with the Holy Spirit, appears above the vase of lilies. Notice the two saints on the outer panels: this painting tells the Annunciation story while also honoring saints important to Siena."
+        "Gabriel's greeting is painted across the gold background in Latin: 'Ave gratia plena dominus tecum' ('Hail, full of grace, the Lord is with you'). Mary pulls back, startled by the angel's sudden arrival. A white dove, associated with the Holy Spirit, appears above the vase of lilies. Notice the two saints on the outer panels: this painting tells the Annunciation story while also honoring saints important to Siena. The left-hand saint is Ansanus, a patron of Siena; the female martyr at right has a debated identity (possibly Maxima or Margaret), so neither attribution should be memorized without noting the uncertainty."
       ],
       "hotspots": [
         {
@@ -62,11 +62,11 @@
         },
         {
           "id": "saints",
-          "label": "Side saints",
+          "label": "Side saints: Ansanus and a disputed female martyr",
           "x": 90,
           "y": 61,
           "kind": "Altarpiece",
-          "text": "The saints at the sides remind us that this was an altarpiece made for Siena Cathedral, not just a picture of one story."
+          "text": "Saint Ansanus stands at the far left with Siena's black-and-white banner and a palm. On the right is a female martyr whose identity is uncertain: the Uffizi suggests Saint Maxima or Saint Margaret. Find out how historians use attributes, inscriptions and the altar's original setting in the Annunciation identification guide."
         }
       ],
       "questions": [

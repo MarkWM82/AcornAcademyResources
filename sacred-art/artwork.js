@@ -4,6 +4,8 @@
  const ROOT=new URL(".",script.src);
  const id=document.body.dataset.artwork;
  const root=document.getElementById("app");
+ const peopleGuide="annunciation-saints.html";
+
  const imageUrl=p=>new URL(p.image,ROOT).href;
  const pageUrl=p=>new URL(p.page||"annunciation.html",ROOT).href;
  const E=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
@@ -14,6 +16,7 @@
  const external=(txt,url)=>{const a=link(txt,url);a.target="_blank";a.rel="noopener noreferrer";return a;};
  let all=[],painting=null;
  function setViewer(host,p){
+  const who=E("p","muted small","Want to recognize people in other paintings, not just memorize names? ");who.append(link("Open the Annunciation identification guide",new URL(peopleGuide,ROOT).href));host.append(who);
   const view=E("div","viewer");view.setAttribute("role","region");view.setAttribute("aria-label","Zoomable "+p.title+" by "+p.artist);
   const artspace=E("div","artspace"),im=E("img");im.src=imageUrl(p);im.alt=p.artist+"'s "+p.title;im.decoding="async";
   artspace.append(im);view.append(artspace);host.append(view);

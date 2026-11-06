@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "version_date": "2026-11-06",
+  "purpose": "Reusable identities and attributes shared across Sacred Art stories",
+  "people": [
+    {
+      "id": "mary",
+      "name": "The Virgin Mary",
+      "category": "Biblical",
+      "summary": "Jesus' mother. In the Annunciation, Gabriel announces that she will bear Jesus.",
+      "clues": [
+        "Usually the woman receiving a message from an angel in Annunciation scenes",
+        "Often wears blue, though her clothing varies",
+        "Often shown with a book, a lectern, a lily nearby, or an enclosed garden"
+      ],
+      "care": "A blue robe or a book alone does not prove that a woman is Mary. Identify her role in the story and surrounding figures.",
+      "stories": [
+        "annunciation",
+        "nativity",
+        "shepherds",
+        "magi"
+      ],
+      "artworks": [
+        [
+          "Leonardo's Annunciation",
+          "paintings/leonardo-annunciation.html"
+        ],
+        [
+          "Jan van Eyck's Annunciation",
+          "paintings/van-eyck.html"
+        ],
+        [
+          "Fra Angelico's Prado Annunciation",
+          "paintings/fra-angelico-prado.html"
+        ]
+      ],
+      "sources": [
+        "https://www.uffizi.it/en/artworks/annunciation",
+        "https://www.nga.gov/artworks/46-annunciation"
+      ]
+    },
+    {
+      "id": "gabriel",
+      "name": "Saint Gabriel the Archangel",
+      "category": "Angel",
+      "summary": "God's messenger who announces to Mary that she will bear Jesus.",
+      "clues": [
+        "Winged messenger addressing Mary",
+        "Often carries lilies, an olive branch, a staff or a scroll with a greeting",
+        "May kneel, bow, point toward heaven or approach Mary"
+      ],
+      "care": "Wings alone show that someone is an angel, not necessarily Gabriel. Use the scene and his message to identify him.",
+      "stories": [
+        "annunciation"
+      ],
+      "artworks": [
+        [
+          "Simone Martini's Annunciation",
+          "paintings/simone-martini.html"
+        ],
+        [
+          "Leonardo's Annunciation",
+          "paintings/leonardo-annunciation.html"
+        ],
+        [
+          "Botticelli's Cestello Annunciation",
+          "paintings/botticelli-cestello.html"
+        ]
+      ],
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/glossary/gabriel-archangel",
+        "https://www.uffizi.it/en/artworks/annunciation"
+      ]
+    },
+    {
+      "id": "ansanus",
+      "name": "Saint Ansanus",
+      "category": "Saint",
+      "summary": "An early Christian martyr and patron of Siena. He is included in Simone Martini and Lippo Memmi's Annunciation because the altarpiece was made for his altar.",
+      "clues": [
+        "A standing young male martyr on the far left of the altarpiece",
+        "A banner showing Siena's traditional black-and-white colors",
+        "A martyr's palm"
+      ],
+      "care": "A banner or palm by itself is not unique to Ansanus. The Siena altar's dedication and the painting's history provide important supporting evidence.",
+      "stories": [
+        "annunciation"
+      ],
+      "artworks": [
+        [
+          "Simone Martini and Lippo Memmi's Annunciation",
+          "paintings/simone-martini.html"
+        ]
+      ],
+      "sources": [
+        "https://www.uffizi.it/en/artworks/annunciation-with-st-margaret-and-st-ansanus"
+      ]
+    },
+    {
+      "id": "joseph",
+      "name": "Saint Joseph",
+      "category": "Biblical",
+      "summary": "Mary's husband, from the family of David, and Jesus' earthly guardian.",
+      "clues": [
+        "Shown close to Mary and the infant Jesus in Nativity scenes",
+        "Often appears as an older bearded man, sometimes standing apart or holding a staff",
+        "In other artworks may hold a lily, tools associated with carpentry, or the Christ Child"
+      ],
+      "care": "Age, beard or staff is not enough on its own. Identify the Holy Family scene and Joseph's relationship to Mary and Jesus.",
+      "stories": [
+        "nativity",
+        "shepherds",
+        "magi"
+      ],
+      "artworks": [
+        [
+          "The Birth of Jesus",
+          "nativity.html"
+        ],
+        [
+          "The Shepherds' Visit",
+          "shepherds.html"
+        ]
+      ],
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/glossary/st-joseph"
+      ]
+    },
+    {
+      "id": "anne",
+      "name": "Saint Anne",
+      "category": "Saint",
+      "summary": "Mary's mother according to Christian tradition.",
+      "clues": [
+        "Often shown as an older woman teaching the young Mary to read",
+        "May appear with Mary and the infant Jesus to show three generations",
+        "Often accompanied by a book in teaching scenes"
+      ],
+      "care": "An older woman near Mary is not automatically Anne. The traditional family relationship, a teaching scene or a documented painting context matters.",
+      "stories": [
+        "shepherds"
+      ],
+      "artworks": [
+        [
+          "Matthias Stom's Raleigh Adoration",
+          "shepherds.html#stom-raleigh"
+        ],
+        [
+          "Saint Anne guide",
+          "nativity-saints.html#anna"
+        ]
+      ],
+      "sources": [
+        "https://collection.ncartmuseum.org/objects/426/the-adoration-of-the-shepherds"
+      ]
+    },
+    {
+      "id": "catherine-alexandria",
+      "name": "Saint Catherine of Alexandria",
+      "category": "Saint",
+      "summary": "A learned Christian martyr of royal status in later tradition.",
+      "clues": [
+        "Spiked wheel associated with her martyrdom legend",
+        "Crown denoting the princess of tradition",
+        "Sometimes a sword or a book"
+      ],
+      "care": "Fra Angelico's Nativity shows her crown, but a wheel may not appear. Different paintings show different attributes.",
+      "stories": [
+        "nativity"
+      ],
+      "artworks": [
+        [
+          "Fra Angelico's San Marco Nativity",
+          "nativity.html#fra-angelico-nativity"
+        ],
+        [
+          "Learn Catherine and Peter",
+          "nativity-saints.html#catherine-and-peter"
+        ]
+      ],
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/glossary/st-catherine-of-alexandria"
+      ]
+    },
+    {
+      "id": "peter-martyr",
+      "name": "Saint Peter Martyr (Peter of Verona)",
+      "category": "Saint",
+      "summary": "A thirteenth-century Dominican preacher and martyr.",
+      "clues": [
+        "Black-and-white Dominican habit",
+        "A head wound or blade associated with martyrdom",
+        "Sometimes a martyr's palm"
+      ],
+      "care": "Do not confuse him with Saint Peter the Apostle, who is often shown with keys. Look for Dominican clothing and the martyr's injury.",
+      "stories": [
+        "nativity"
+      ],
+      "artworks": [
+        [
+          "Fra Angelico's San Marco Nativity",
+          "nativity.html#fra-angelico-nativity"
+        ],
+        [
+          "Learn Catherine and Peter",
+          "nativity-saints.html#catherine-and-peter"
+        ]
+      ],
+      "sources": [
+        "https://www.wga.hu/html_m/a/angelico/09/cells/05_nativ.html"
+      ]
+    },
+    {
+      "id": "thomas",
+      "name": "Saint Thomas the Apostle",
+      "category": "Saint",
+      "summary": "An apostle of Jesus, shown as a patron saint of Tommaso Portinari.",
+      "clues": [
+        "Spear associated with traditions about his martyrdom",
+        "Can appear with a donor named Thomas or Tommaso",
+        "Sometimes shown touching Jesus' wounds in Resurrection scenes"
+      ],
+      "care": "Do not assume everyone holding a spear is Thomas. Combine the attribute, name saint and surrounding context.",
+      "stories": [
+        "shepherds"
+      ],
+      "artworks": [
+        [
+          "Portinari Triptych",
+          "shepherds.html#portinari-triptych"
+        ],
+        [
+          "Patron saints and donors",
+          "nativity-saints.html#portinari"
+        ]
+      ],
+      "sources": [
+        "https://www.uffizi.it/en/online-exhibitions/portinari-triptych"
+      ]
+    },
+    {
+      "id": "anthony-abbot",
+      "name": "Saint Anthony the Abbot",
+      "category": "Saint",
+      "summary": "An Egyptian desert hermit of the third and fourth centuries.",
+      "clues": [
+        "T-shaped tau staff or crutch",
+        "Bell and sometimes a pig",
+        "Often an elderly monk or hermit"
+      ],
+      "care": "Not Saint Anthony of Padua. A pig, bell or tau staff together provide stronger clues than the name Anthony alone.",
+      "stories": [
+        "shepherds"
+      ],
+      "artworks": [
+        [
+          "Portinari Triptych",
+          "shepherds.html#portinari-triptych"
+        ],
+        [
+          "Compare the two Anthonys",
+          "nativity-saints.html#two-anthonys"
+        ]
+      ],
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/glossary/st-anthony-abbot"
+      ]
+    },
+    {
+      "id": "anthony-padua",
+      "name": "Saint Anthony of Padua",
+      "category": "Saint",
+      "summary": "A thirteenth-century Franciscan friar, a different person from Anthony the Abbot.",
+      "clues": [
+        "Young Franciscan friar's habit",
+        "Lily, book or the Christ Child"
+      ],
+      "care": "His objects differ from the bell, tau staff and pig often associated with Anthony the Abbot.",
+      "stories": [],
+      "artworks": [
+        [
+          "Compare the two Anthonys",
+          "nativity-saints.html#two-anthonys"
+        ]
+      ],
+      "sources": [
+        "https://www.santantonio.org/en/symbols"
+      ]
+    },
+    {
+      "id": "margaret-antioch",
+      "name": "Saint Margaret of Antioch",
+      "category": "Saint",
+      "summary": "A martyr associated with a dragon in her legend.",
+      "clues": [
+        "Dragon beneath or beside her",
+        "Often carrying a cross or palm"
+      ],
+      "care": "Her identity in the Portinari Triptych is established. Do not assume that the disputed female saint in Simone Martini's Annunciation is Margaret.",
+      "stories": [
+        "shepherds"
+      ],
+      "artworks": [
+        [
+          "Portinari Triptych",
+          "shepherds.html#portinari-triptych"
+        ]
+      ],
+      "sources": [
+        "https://www.uffizi.it/en/online-exhibitions/portinari-triptych"
+      ]
+    },
+    {
+      "id": "mary-magdalene",
+      "name": "Saint Mary Magdalene",
+      "category": "Saint",
+      "summary": "A follower of Jesus, traditionally associated with anointing and a jar of ointment.",
+      "clues": [
+        "Ointment or perfume jar",
+        "Sometimes loose long hair or rich garments"
+      ],
+      "care": "A jar is a conventional symbol, not a guaranteed unique label. Check the scene and other figures.",
+      "stories": [
+        "shepherds"
+      ],
+      "artworks": [
+        [
+          "Portinari Triptych",
+          "shepherds.html#portinari-triptych"
+        ]
+      ],
+      "sources": [
+        "https://www.uffizi.it/en/online-exhibitions/portinari-triptych"
+      ]
+    },
+    {
+      "id": "john-baptist",
+      "name": "Saint John the Baptist",
+      "category": "Saint",
+      "summary": "The prophet who prepared the way for Jesus and baptized him in the Jordan.",
+      "clues": [
+        "Camel-hair clothing or rough wilderness garments",
+        "Reed cross-staff, lamb or scroll referring to the Lamb of God",
+        "May appear beside a river or in a baptism scene"
+      ],
+      "care": "Not Saint John the Evangelist. In a scene depicting the Baptism of Jesus, the person baptizing Jesus is John the Baptist.",
+      "stories": [
+        "magi"
+      ],
+      "artworks": [
+        [
+          "Ghirlandaio's Innocenti altarpiece",
+          "magi.html#ghirlandaio-innocenti"
+        ],
+        [
+          "The two Johns",
+          "nativity-saints.html#two-johns"
+        ]
+      ],
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/glossary/st-john-the-baptist"
+      ]
+    },
+    {
+      "id": "john-evangelist",
+      "name": "Saint John the Evangelist",
+      "category": "Saint",
+      "summary": "Traditionally associated with the fourth Gospel and the eagle symbol.",
+      "clues": [
+        "Book or writing materials",
+        "An eagle used as the Evangelist symbol",
+        "Sometimes a youthful apostle with a cup or chalice"
+      ],
+      "care": "Not John the Baptist. Book and eagle are stronger clues than simply being a young man.",
+      "stories": [
+        "magi"
+      ],
+      "artworks": [
+        [
+          "Ghirlandaio's Innocenti altarpiece",
+          "magi.html#ghirlandaio-innocenti"
+        ],
+        [
+          "The two Johns",
+          "nativity-saints.html#two-johns"
+        ]
+      ],
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/glossary/st-john-the-evangelist"
+      ]
+    },
+    {
+      "id": "isaiah",
+      "name": "Isaiah",
+      "category": "Prophet",
+      "summary": "An Old Testament prophet whose words Christians connect with the coming of Jesus.",
+      "clues": [
+        "Often holds a scroll or book, sometimes with a quotation from Isaiah",
+        "In Duccio's Nativity the left scroll quotes Isaiah 7:14"
+      ],
+      "care": "Scrolls are common to prophets, so the biblical quotation is the strongest identifying clue in Duccio's painting.",
+      "stories": [
+        "nativity"
+      ],
+      "artworks": [
+        [
+          "Duccio's Nativity",
+          "nativity.html#duccio-prophets"
+        ]
+      ],
+      "sources": [
+        "https://www.nga.gov/artworks/10-nativity-prophets-isaiah-and-ezekiel"
+      ]
+    },
+    {
+      "id": "ezekiel",
+      "name": "Ezekiel",
+      "category": "Prophet",
+      "summary": "An Old Testament prophet whose book includes the image of a closed gate, later interpreted symbolically by Christians.",
+      "clues": [
+        "Often holds a scroll or book",
+        "In Duccio's Nativity the right scroll refers to Ezekiel 44:2"
+      ],
+      "care": "The scroll's text matters more than which side of the panel he stands on.",
+      "stories": [
+        "nativity"
+      ],
+      "artworks": [
+        [
+          "Duccio's Nativity",
+          "nativity.html#duccio-prophets"
+        ]
+      ],
+      "sources": [
+        "https://www.nga.gov/artworks/10-nativity-prophets-isaiah-and-ezekiel"
+      ]
+    }
+  ]
+}
