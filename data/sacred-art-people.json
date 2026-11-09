@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version_date": "2026-11-06",
+  "version_date": "2026-11-09",
   "purpose": "Reusable identities and attributes shared across Sacred Art stories",
   "people": [
     {
@@ -11,14 +11,16 @@
       "clues": [
         "Usually the woman receiving a message from an angel in Annunciation scenes",
         "Often wears blue, though her clothing varies",
-        "Often shown with a book, a lectern, a lily nearby, or an enclosed garden"
+        "Often shown with a book, a lectern, a lily nearby, or an enclosed garden",
+        "In the Visitation, the younger traveler greeting her older relative Elizabeth; often shown pregnant"
       ],
       "care": "A blue robe or a book alone does not prove that a woman is Mary. Identify her role in the story and surrounding figures.",
       "stories": [
         "annunciation",
         "nativity",
         "shepherds",
-        "magi"
+        "magi",
+        "visitation"
       ],
       "artworks": [
         [
@@ -32,6 +34,18 @@
         [
           "Fra Angelico's Prado Annunciation",
           "paintings/fra-angelico-prado.html"
+        ],
+        [
+          "Albertinelli's Visitation",
+          "visitation.html#albertinelli"
+        ],
+        [
+          "Raphael's Visitation",
+          "visitation.html#raphael-prado"
+        ],
+        [
+          "Pontormo's Visitation",
+          "visitation.html#pontormo-carmignano"
         ]
       ],
       "sources": [
@@ -345,7 +359,8 @@
       ],
       "care": "Not Saint John the Evangelist. In a scene depicting the Baptism of Jesus, the person baptizing Jesus is John the Baptist.",
       "stories": [
-        "magi"
+        "magi",
+        "visitation"
       ],
       "artworks": [
         [
@@ -355,6 +370,10 @@
         [
           "The two Johns",
           "nativity-saints.html#two-johns"
+        ],
+        [
+          "Raphael's Visitation (future Baptism in the background)",
+          "visitation.html#raphael-prado"
         ]
       ],
       "sources": [
@@ -438,6 +457,118 @@
       ],
       "sources": [
         "https://www.nga.gov/artworks/10-nativity-prophets-isaiah-and-ezekiel"
+      ]
+    },
+    {
+      "id": "elizabeth",
+      "name": "Saint Elizabeth (mother of John the Baptist)",
+      "category": "Biblical",
+      "summary": "Mary's older relative, wife of Zechariah and mother of John the Baptist. At the Visitation, she welcomes Mary and is filled with the Holy Spirit.",
+      "clues": [
+        "Older expectant woman welcoming a younger pregnant traveler in a Visitation scene",
+        "May embrace Mary, clasp her hands, or touch her pregnancy",
+        "May be shown near Zechariah's house and joined by her husband"
+      ],
+      "care": "No single color, age or position identifies Elizabeth in every work. The Visitation event, her relationship to Mary and John's pregnancy are the strongest combined clues.",
+      "stories": [
+        "visitation"
+      ],
+      "artworks": [
+        [
+          "Albertinelli's Visitation",
+          "visitation.html#albertinelli"
+        ],
+        [
+          "Pontormo's Visitation",
+          "visitation.html#pontormo-carmignano"
+        ],
+        [
+          "Bloch's Meeting of Mary and Elizabeth",
+          "visitation.html#bloch"
+        ],
+        [
+          "Rembrandt's Visitation",
+          "visitation.html#rembrandt-detroit"
+        ]
+      ],
+      "sources": [
+        "https://bible.usccb.org/bible/luke/1",
+        "https://www.uffizi.it/en/artworks/albertinelli-visitation"
+      ]
+    },
+    {
+      "id": "zechariah",
+      "name": "Saint Zechariah (father of John the Baptist)",
+      "category": "Biblical",
+      "summary": "Elizabeth's husband and John's father, a priest who receives a message from Gabriel in Luke 1.",
+      "clues": [
+        "Older man near Elizabeth's home or greeting scene in some Visitation paintings",
+        "Sometimes helped down steps, as in Rembrandt",
+        "Sometimes shown with priestly imagery or in a Temple scene"
+      ],
+      "care": "Beards and old age are not distinctive attributes. Identify Zechariah through the biblical situation, relationship to Elizabeth and trustworthy museum documentation.",
+      "stories": [
+        "visitation"
+      ],
+      "artworks": [
+        [
+          "Rogier's Visitation",
+          "visitation.html#rogier-leipzig"
+        ],
+        [
+          "Rembrandt's Visitation",
+          "visitation.html#rembrandt-detroit"
+        ]
+      ],
+      "sources": [
+        "https://bible.usccb.org/bible/luke/1",
+        "https://www.wga.hu/html_m/w/weyden/rogier/17other/3visitat.html"
+      ]
+    },
+    {
+      "id": "mary-jacobi",
+      "name": "Saint Mary Jacobi",
+      "category": "Saint",
+      "summary": "A holy woman identified by inscription in Ghirlandaio's Louvre Visitation. Christian traditions associate her with women who followed Jesus.",
+      "clues": [
+        "Identified by inscription at the upper left of Ghirlandaio's 1491 Louvre Visitation",
+        "Often depicted with other female followers of Jesus in later Christian art"
+      ],
+      "care": "She has no uniquely reliable dress color or object in this painting. Do not identify an unfamiliar figure as Mary Jacobi without inscriptions or stronger context.",
+      "stories": [
+        "visitation"
+      ],
+      "artworks": [
+        [
+          "Ghirlandaio's Visitation with side saints",
+          "visitation.html#ghirlandaio-louvre"
+        ]
+      ],
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010064450"
+      ]
+    },
+    {
+      "id": "mary-salome",
+      "name": "Saint Mary Salome",
+      "category": "Saint",
+      "summary": "A holy woman identified by inscription in Ghirlandaio's Louvre Visitation. She is distinct from Mary the mother of Jesus.",
+      "clues": [
+        "Identified by the upper inscription at the right of Ghirlandaio's Louvre Visitation",
+        "Traditionally associated with women who followed Jesus and visited his tomb"
+      ],
+      "care": "Her garments and prayerful gesture in this artwork are not unique identifying symbols. Seek inscriptions, artwork context and reliable museum identifications.",
+      "stories": [
+        "visitation"
+      ],
+      "artworks": [
+        [
+          "Ghirlandaio's Visitation with side saints",
+          "visitation.html#ghirlandaio-louvre"
+        ]
+      ],
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010064450"
       ]
     }
   ]

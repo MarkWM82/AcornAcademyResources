@@ -221,6 +221,19 @@
 							"url": "sacred-art/nativity-saints.html"
 						}
 					]
+				},
+				{
+					"title": "The Visitation",
+					"children": [
+						{
+							"title": "The Visitation: Mary Meets Elizabeth",
+							"url": "sacred-art/visitation.html"
+						},
+						{
+							"title": "Recognizing People in the Visitation",
+							"url": "sacred-art/visitation-saints.html"
+						}
+					]
 				}
 			]
 		}
