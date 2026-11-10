@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "rights_note": "Original local image files are not published on this website. Links lead to external collection records.",
+  "rights_note": "User-provided artwork reproduced on this limited-use Acorn Academy website with permission confirmed by the user; collection records are linked for context.",
   "records": [
     {
       "id": "albertinelli",
@@ -25,7 +25,8 @@
         "main Visitation",
         "three events in predella",
         "the relationship of Mary and Elizabeth"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/albertinelli.jpg"
     },
     {
       "id": "bloch",
@@ -49,7 +50,8 @@
       "learning_points": [
         "identification before embrace",
         "older hostess and younger visitor"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/bloch.jpg"
     },
     {
       "id": "ghirlandaio-louvre",
@@ -76,7 +78,8 @@
         "Mary Jacobi (left)",
         "Mary Salome (right)",
         "Louvre catalogue inscriptions"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/ghirlandaio-louvre.jpg"
     },
     {
       "id": "giotto-scrovegni",
@@ -100,7 +103,8 @@
       "learning_points": [
         "embrace in early fresco",
         "attendants are not automatically saints"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/giotto-scrovegni.jpg"
     },
     {
       "id": "pontormo-carmignano",
@@ -125,7 +129,8 @@
         "four women, two protagonists",
         "Mannerist color",
         "unidentified background women"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/pontormo-carmignano.jpg"
     },
     {
       "id": "rembrandt-detroit",
@@ -151,7 +156,8 @@
         "Zechariah in context",
         "light on Mary and Elizabeth",
         "peacock symbolism"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/rembrandt-detroit.jpg"
     },
     {
       "id": "raphael-prado",
@@ -177,7 +183,8 @@
         "Baptism of Jesus in distance",
         "John's future role",
         "not chronological simultaneity"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/raphael-prado.jpg"
     },
     {
       "id": "rogier-leipzig",
@@ -203,7 +210,8 @@
         "Mary's journey",
         "hands to pregnant bodies",
         "Zechariah near house"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/rogier-leipzig.jpg"
     },
     {
       "id": "rubens-antwerp",
@@ -228,7 +236,40 @@
         "wing of a triptych",
         "bearing Christ",
         "lower-resolution reproduction"
-      ]
+      ],
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/rubens-antwerp.jpg"
+    }
+  ],
+  "detail_images": [
+    {
+      "id": "albertinelli-predella",
+      "caption": "Albertinelli: three related scenes below the main Visitation",
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/albertinelli-predella.jpg"
+    },
+    {
+      "id": "ghirlandaio-mary-jacobi",
+      "caption": "Ghirlandaio: Mary Jacobi and her inscription",
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/ghirlandaio-mary-jacobi.jpg"
+    },
+    {
+      "id": "ghirlandaio-mary-salome",
+      "caption": "Ghirlandaio: Mary Salome and her inscription",
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/ghirlandaio-mary-salome.jpg"
+    },
+    {
+      "id": "raphael-baptism",
+      "caption": "Raphael: the much later Baptism of Jesus in the background",
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/raphael-baptism.jpg"
+    },
+    {
+      "id": "rembrandt-figures",
+      "caption": "Rembrandt: the illuminated meeting of Mary and Elizabeth",
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/rembrandt-figures.jpg"
+    },
+    {
+      "id": "rogier-zechariah",
+      "caption": "Rogier: the house and tiny Zechariah in the landscape",
+      "image_path": "/AcornAcademyResources/media/sacred-art/visitation/rogier-zechariah.jpg"
     }
   ]
 }
