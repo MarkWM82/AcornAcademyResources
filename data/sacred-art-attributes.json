@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-11",
+  "description": "Symbol and attribute interpretation, linked to reusable saint identities",
+  "entries": [
+    {
+      "id": "mary-blue",
+      "person_id": "mary",
+      "symbol": "Blue mantle",
+      "meaning": "Heaven, Marian dignity and purity; blue also became associated with costly ultramarine pigment",
+      "use": "Look for a blue outer mantle as a common supporting clue to Mary",
+      "caution": "Not every Mary is blue, and other saints can wear blue",
+      "source": "https://www.nationalgallery.org.uk/paintings/nicolas-poussin-the-annunciation"
+    },
+    {
+      "id": "mary-red",
+      "person_id": "mary",
+      "symbol": "Red or rose-colored tunic",
+      "meaning": "Love, maternal devotion and, in some readings, the future suffering of Christ",
+      "use": "Look for red or rose beneath Mary's often-blue mantle",
+      "caution": "Meaning varies by painting and period; not a universal red=humanity formula",
+      "source": "https://nmwa.org/blog/nmwa-exhibitions/mary-and-the-colors-of-motherhood/"
+    },
+    {
+      "id": "mary-ultramarine",
+      "person_id": "mary",
+      "symbol": "Expensive blue pigment",
+      "meaning": "Artists sometimes used rare lapis-lazuli-derived ultramarine to honor Mary's spiritual importance",
+      "use": "Ask why patrons would pay for a costly blue on a sacred figure",
+      "caution": "The choice can reflect wealth and patronage as well as symbolism",
+      "source": "https://ackland.org/education/the-color-blue/"
+    },
+    {
+      "id": "mary-lily",
+      "person_id": "mary",
+      "symbol": "White lily",
+      "meaning": "Purity, especially in Annunciation imagery",
+      "use": "Gabriel may present lilies, or lilies may stand in a vase near Mary",
+      "caution": "Lilies appear with other saints and are not a name tag on their own",
+      "source": "https://www.nationalgallery.org.uk/paintings/duccio-the-annunciation"
+    },
+    {
+      "id": "mary-book",
+      "person_id": "mary",
+      "symbol": "Book or lectern",
+      "meaning": "Prayer, reflection and knowledge of Scripture; some paintings show Isaiah's prophecy",
+      "use": "Examine whether Mary is reading as Gabriel arrives",
+      "caution": "Many saints hold books; the story matters",
+      "source": "https://www.nationalgallery.org.uk/paintings/duccio-the-annunciation"
+    },
+    {
+      "id": "mary-halo",
+      "person_id": "mary",
+      "symbol": "Halo or gold surrounding the head",
+      "meaning": "Holiness, heavenly light or sanctity",
+      "use": "Look for a halo in combination with subject and context",
+      "caution": "Halos are shared by many sacred people, not unique to Mary",
+      "source": "https://www.nationalgallery.org.uk/paintings/duccio-the-annunciation"
+    },
+    {
+      "id": "catherine-wheel",
+      "person_id": "catherine-alexandria",
+      "symbol": "Spiked wheel",
+      "meaning": "A reminder of Catherine's martyrdom legend",
+      "use": "A wheel beside a crowned woman may suggest Saint Catherine",
+      "caution": "A wheel may be absent; verify the scene",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/st-catherine-of-alexandria"
+    },
+    {
+      "id": "catherine-crown",
+      "person_id": "catherine-alexandria",
+      "symbol": "Crown",
+      "meaning": "The learned princess of Catherine's traditional story",
+      "use": "Combine crown with wheel, sword or martyr's palm",
+      "caution": "A crown alone could signify many rulers and saints",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/st-catherine-of-alexandria"
+    },
+    {
+      "id": "peter-wound",
+      "person_id": "peter-martyr",
+      "symbol": "Head wound or blade",
+      "meaning": "Peter of Verona's martyrdom",
+      "use": "Combine head injury with Dominican black-and-white habit",
+      "caution": "Do not confuse this Peter with the apostle identified by keys",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/st-peter-martyr"
+    },
+    {
+      "id": "anthony-bell",
+      "person_id": "anthony-abbot",
+      "symbol": "Bell, tau staff or pig",
+      "meaning": "Links to Anthony the Abbot's hermit tradition and later religious associations",
+      "use": "Use multiple clues to distinguish him from Anthony of Padua",
+      "caution": "Not all these objects appear together or in every painting",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/st-anthony-abbot"
+    },
+    {
+      "id": "margaret-dragon",
+      "person_id": "margaret-antioch",
+      "symbol": "Dragon",
+      "meaning": "The dragon in Saint Margaret's legendary ordeal",
+      "use": "Dragon beside a female martyr can be a strong traditional clue",
+      "caution": "Dragons also occur with other saints; inspect additional clues",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/st-margaret"
+    },
+    {
+      "id": "magdalene-jar",
+      "person_id": "mary-magdalene",
+      "symbol": "Ointment or perfume jar",
+      "meaning": "Mary Magdalene's traditional connection with anointing Jesus",
+      "use": "Combine jar, long hair and a Gospel or Resurrection scene",
+      "caution": "Traditions historically conflated several women; avoid claiming each detail is explicit in Scripture",
+      "source": "https://www.nationalgallery.org.uk/paintings/carlo-crivelli-saint-mary-magdalene"
+    },
+    {
+      "id": "john-lamb",
+      "person_id": "john-baptist",
+      "symbol": "Lamb",
+      "meaning": "John names Jesus the Lamb of God, connecting his ministry to Christ",
+      "use": "Combine lamb with wilderness clothing or reed cross",
+      "caution": "A lamb may symbolize Jesus directly without John present",
+      "source": "https://www.nationalgallery.org.uk/paintings/filippino-lippi-the-virgin-and-child-with-saint-john"
+    },
+    {
+      "id": "john-reed",
+      "person_id": "john-baptist",
+      "symbol": "Reed cross and camel-hair clothing",
+      "meaning": "John's wilderness life and role preparing the way for Jesus",
+      "use": "Reed cross plus rough garment supports identifying John",
+      "caution": "Not every painting includes both symbols",
+      "source": "https://www.nationalgallery.org.uk/paintings/filippino-lippi-the-virgin-and-child-with-saint-john"
+    },
+    {
+      "id": "john-eagle",
+      "person_id": "john-evangelist",
+      "symbol": "Eagle",
+      "meaning": "Traditional symbol of John the Evangelist's soaring theology",
+      "use": "Distinguish the Evangelist's eagle and book from the Baptist's lamb and reed cross",
+      "caution": "The symbol can appear in groups of four Evangelists",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/st-john-the-evangelist"
+    },
+    {
+      "id": "anne-book",
+      "person_id": "anne",
+      "symbol": "Book with young Mary",
+      "meaning": "Christian tradition showing Saint Anne teaching her daughter Mary",
+      "use": "Check for an older woman instructing a young girl",
+      "caution": "A book with an older woman alone does not establish her identity",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/st-anne"
+    },
+    {
+      "id": "margaret-palm",
+      "person_id": "margaret-antioch",
+      "symbol": "Martyr's palm",
+      "meaning": "A palm frond represents victory through faith and martyrdom",
+      "use": "Use the palm alongside distinctive features such as Margaret's dragon",
+      "caution": "Many martyrs carry palms; it does not name the saint",
+      "source": "https://www.nationalgallery.org.uk/paintings/glossary/st-margaret"
+    }
+  ]
+}

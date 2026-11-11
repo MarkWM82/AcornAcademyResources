@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version_date": "2026-11-09",
+  "version_date": "2026-11-11",
   "purpose": "Reusable identities and attributes shared across Sacred Art stories",
   "people": [
     {
@@ -10,7 +10,7 @@
       "summary": "Jesus' mother. In the Annunciation, Gabriel announces that she will bear Jesus.",
       "clues": [
         "Usually the woman receiving a message from an angel in Annunciation scenes",
-        "Often wears blue, though her clothing varies",
+        "Often wears a blue mantle over a red or rose-colored garment, a widely recognized but nonexclusive Marian convention",
         "Often shown with a book, a lectern, a lily nearby, or an enclosed garden",
         "In the Visitation, the younger traveler greeting her older relative Elizabeth; often shown pregnant"
       ],
@@ -55,6 +55,44 @@
       "sources": [
         "https://www.uffizi.it/en/artworks/annunciation",
         "https://www.nga.gov/artworks/46-annunciation"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "mary-blue",
+          "symbol": "Blue mantle",
+          "meaning": "Heaven, Marian dignity and purity; blue also became associated with costly ultramarine pigment",
+          "caution": "Not every Mary is blue, and other saints can wear blue"
+        },
+        {
+          "id": "mary-red",
+          "symbol": "Red or rose-colored tunic",
+          "meaning": "Love, maternal devotion and, in some readings, the future suffering of Christ",
+          "caution": "Meaning varies by painting and period; not a universal red=humanity formula"
+        },
+        {
+          "id": "mary-ultramarine",
+          "symbol": "Expensive blue pigment",
+          "meaning": "Artists sometimes used rare lapis-lazuli-derived ultramarine to honor Mary's spiritual importance",
+          "caution": "The choice can reflect wealth and patronage as well as symbolism"
+        },
+        {
+          "id": "mary-lily",
+          "symbol": "White lily",
+          "meaning": "Purity, especially in Annunciation imagery",
+          "caution": "Lilies appear with other saints and are not a name tag on their own"
+        },
+        {
+          "id": "mary-book",
+          "symbol": "Book or lectern",
+          "meaning": "Prayer, reflection and knowledge of Scripture; some paintings show Isaiah's prophecy",
+          "caution": "Many saints hold books; the story matters"
+        },
+        {
+          "id": "mary-halo",
+          "symbol": "Halo or gold surrounding the head",
+          "meaning": "Holiness, heavenly light or sanctity",
+          "caution": "Halos are shared by many sacred people, not unique to Mary"
+        }
       ]
     },
     {
@@ -170,6 +208,14 @@
       ],
       "sources": [
         "https://collection.ncartmuseum.org/objects/426/the-adoration-of-the-shepherds"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "anne-book",
+          "symbol": "Book with young Mary",
+          "meaning": "Christian tradition showing Saint Anne teaching her daughter Mary",
+          "caution": "A book with an older woman alone does not establish her identity"
+        }
       ]
     },
     {
@@ -198,6 +244,20 @@
       ],
       "sources": [
         "https://www.nationalgallery.org.uk/paintings/glossary/st-catherine-of-alexandria"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "catherine-wheel",
+          "symbol": "Spiked wheel",
+          "meaning": "A reminder of Catherine's martyrdom legend",
+          "caution": "A wheel may be absent; verify the scene"
+        },
+        {
+          "id": "catherine-crown",
+          "symbol": "Crown",
+          "meaning": "The learned princess of Catherine's traditional story",
+          "caution": "A crown alone could signify many rulers and saints"
+        }
       ]
     },
     {
@@ -226,6 +286,14 @@
       ],
       "sources": [
         "https://www.wga.hu/html_m/a/angelico/09/cells/05_nativ.html"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "peter-wound",
+          "symbol": "Head wound or blade",
+          "meaning": "Peter of Verona's martyrdom",
+          "caution": "Do not confuse this Peter with the apostle identified by keys"
+        }
       ]
     },
     {
@@ -282,6 +350,14 @@
       ],
       "sources": [
         "https://www.nationalgallery.org.uk/paintings/glossary/st-anthony-abbot"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "anthony-bell",
+          "symbol": "Bell, tau staff or pig",
+          "meaning": "Links to Anthony the Abbot's hermit tradition and later religious associations",
+          "caution": "Not all these objects appear together or in every painting"
+        }
       ]
     },
     {
@@ -326,6 +402,20 @@
       ],
       "sources": [
         "https://www.uffizi.it/en/online-exhibitions/portinari-triptych"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "margaret-dragon",
+          "symbol": "Dragon",
+          "meaning": "The dragon in Saint Margaret's legendary ordeal",
+          "caution": "Dragons also occur with other saints; inspect additional clues"
+        },
+        {
+          "id": "margaret-palm",
+          "symbol": "Martyr's palm",
+          "meaning": "A palm frond represents victory through faith and martyrdom",
+          "caution": "Many martyrs carry palms; it does not name the saint"
+        }
       ]
     },
     {
@@ -349,6 +439,14 @@
       ],
       "sources": [
         "https://www.uffizi.it/en/online-exhibitions/portinari-triptych"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "magdalene-jar",
+          "symbol": "Ointment or perfume jar",
+          "meaning": "Mary Magdalene's traditional connection with anointing Jesus",
+          "caution": "Traditions historically conflated several women; avoid claiming each detail is explicit in Scripture"
+        }
       ]
     },
     {
@@ -391,6 +489,20 @@
         "Matthew 3:13–17",
         "Mark 1:9–11",
         "Luke 3:21–22"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "john-lamb",
+          "symbol": "Lamb",
+          "meaning": "John names Jesus the Lamb of God, connecting his ministry to Christ",
+          "caution": "A lamb may symbolize Jesus directly without John present"
+        },
+        {
+          "id": "john-reed",
+          "symbol": "Reed cross and camel-hair clothing",
+          "meaning": "John's wilderness life and role preparing the way for Jesus",
+          "caution": "Not every painting includes both symbols"
+        }
       ]
     },
     {
@@ -419,6 +531,14 @@
       ],
       "sources": [
         "https://www.nationalgallery.org.uk/paintings/glossary/st-john-the-evangelist"
+      ],
+      "attribute_meanings": [
+        {
+          "id": "john-eagle",
+          "symbol": "Eagle",
+          "meaning": "Traditional symbol of John the Evangelist's soaring theology",
+          "caution": "The symbol can appear in groups of four Evangelists"
+        }
       ]
     },
     {
